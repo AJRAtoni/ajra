@@ -492,7 +492,7 @@ a {text-decoration: none;}
 
 .cosa2 {
     grid-area: cosa2;
-    background-color: #399de5;
+    background: linear-gradient(180deg, #7761FF 0%, #392CE0 100%);
     color: white;
     font-weight: 400;
     font-size: 20px;
