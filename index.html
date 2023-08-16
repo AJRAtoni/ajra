@@ -11,895 +11,818 @@
     <meta property="og:description" content="Web Developer & Data Analyst">
     <meta property="og:image" content="images/ajra-sharing.webp">
     <meta property="og:url" content="https://ajra.es">
-    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398" async></script>
+    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398"
+        async></script>
     <style>
         body {
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.contenido {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-}
-
-h1 {
-    font-size: 44px;
-}
-
-h2 {
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-top: 0px;
-}
-
-h3 {
-    font-size: 1rem;
-    font-weight: 300;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1500px;
-    width: 100%;
-    padding: 0rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.aparecer {
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.5s, transform 1s;
-    animation: fadeUp 0.7s ease 0.1s forwards;
-}
-.aparecer-titulo {
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.5s, transform 1s;
-    animation: fadeUp 0.7s ease 1s forwards;
-}
-
-
-.column {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.sticky-column {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 4rem;
-}
-
-@media (min-width: 1100px) {
-    .container {
-        padding: 4rem;
-    }
-
-    .column {
-        width: 25%;
-        margin-right: 2%;
-        padding: 0;
-    }
-
-
-
-    .column:last-child {
-        width: 70%;
-        max-width: 820px;
-    }
-}
-
-.avatar {
-    border-radius: 50%;
-}
-
-/* Bloque redes sociales */
-.sociales {
-    padding-bottom: 4rem;
-    display: grid;
-    gap: 20px 20px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "mastodon mastodon instagram instagram"
-        "Linkedin GitHub instagram instagram"
-        "Pinterest medium email read";
-}
-
-.caja {
-    border-radius: 13px;
-    padding: 23px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 110px;
-    min-width: 110px;
-    transition: transform 0.5s ease;
-}
-
-.sociales .caja {
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.5s, transform 1s;
-}
-
-.sociales .caja:nth-child(1) {
-    animation: fadeUp 0.7s ease 0.1s forwards;
-}
-
-.sociales .caja:nth-child(2) {
-    animation: fadeUp 0.7s ease 0.2s forwards;
-}
-
-.sociales .caja:nth-child(3) {
-    animation: fadeUp 0.7s ease 0.3s forwards;
-}
-
-.sociales .caja:nth-child(4) {
-    animation: fadeUp 0.7s ease 0.4s forwards;
-}
-
-.sociales .caja:nth-child(5) {
-    animation: fadeUp 0.7s ease 0.5s forwards;
-}
-
-.sociales .caja:nth-child(6) {
-    animation: fadeUp 0.7s ease 0.6s forwards;
-}
-
-.sociales .caja:nth-child(7) {
-    animation: fadeUp 0.7s ease 0.7s forwards;
-}
-
-.sociales .caja:nth-child(7) {
-    animation: fadeUp 0.7s ease 0.8s forwards;
-}
-
-.sociales .caja:nth-child(8) {
-    animation: fadeUp 0.7s ease 0.9s forwards;
-}
-
-@keyframes fadeUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-
-
-.caja:hover {
-    transform: scale(1.02);
-}
-
-.info *:not(.info) {
-    padding: 0;
-    margin: 0;
-    padding-right: 20px;
-}
-
-.logo-blanco {
-    width: 45px;
-    height: 45px;
-    filter: brightness(0) saturate(100%) invert(100%);
-}
-
-.logo-normal {
-    width: 45px;
-    height: 45px;
-}
-
-.logo-coffe {
-    width: 35px;
-}
-
-.medium .logo-blanco {
-    width: 45px;
-    height: 45px;
-}
-
-.info {
-    padding: 0;
-    margin: 0;
-}
-
-.title {
-    color: #FBFBFB;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.handle {
-    color: #FBFBFB;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
-}
-
-.black {
-    color: black;
-}
-
-.logo-normal {
-    width: 45px;
-    height: 45px;
-}
-
-.mastodon {
-    grid-area: mastodon;
-    background: linear-gradient(180deg, #7761FF 0%, #392CE0 100%);
-}
-
-.instagram {
-    grid-area: instagram;
-    background: radial-gradient(68.43% 68.43% at 7.43% 6.00%, #3C93E3 24.84%, rgba(60, 147, 227, 0.00) 100%), radial-gradient(126.35% 126.35% at 13.71% 110.29%, #FFDA55 0%, #F03D63 45.35%, #B72DC0 100%);
-    background-blend-mode: hard-light, normal;
-}
-
-.linkedin {
-    grid-area: Linkedin;
-    background: linear-gradient(180deg, #3D77C7 0%, #195AB5 100%);
-}
-
-.github {
-    grid-area: GitHub;
-    background: linear-gradient(180deg, #25262F 0%, #0C0D16 100%);
-
-}
-
-.pinterest {
-    grid-area: Pinterest;
-    background: linear-gradient(180deg, #FF1539 0%, #D40020 100%);
-
-}
-
-.medium {
-    grid-area: medium;
-    background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
-
-}
-
-.email {
-    grid-area: email;
-    background: linear-gradient(180deg, #9146FF 0%, #6209E5 100%);
-
-}
-
-.read {
-    grid-area: read;
-    background: linear-gradient(180deg, #25262F 0%, #0C0D16 100%);
-
-}
-
-@media (max-width: 768px) {
-    .sociales {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "mastodon mastodon"
-            "instagram instagram"
-            "Linkedin GitHub"
-            "Pinterest medium"
-            "email read";
-    }
-
-    .mastodon {
-        grid-column: span 2;
-    }
-
-    .instagram {
-        grid-column: span 2;
-    }
-}
-
-/* Bloque articulos */
-
-.articulos {
-    padding-bottom: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px 20px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "articulo1 articulo2"
-        "articulo3 articulo4";
-}
-
-.caja-articulo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.5s, transform 1s;
-}
-
-.caja-articulo:nth-child(1) {
-    animation: fadeUp 0.7s ease 1s forwards;
-}
-
-.caja-articulo:nth-child(2) {
-    animation: fadeUp 0.7s ease 1.1s forwards;
-}
-
-.caja-articulo:nth-child(3) {
-    animation: fadeUp 0.7s ease 1.2s forwards;
-}
-
-.caja-articulo:nth-child(4) {
-    animation: fadeUp 0.7s ease 1.3s forwards;
-}
-
-.articulo1 {
-    grid-area: articulo1;
-    background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
-    aspect-ratio: auto;
-    border: 1px solid grey;
-}
-
-.articulo2 {
-    grid-area: articulo2;
-    background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
-    aspect-ratio: auto;
-    border: 1px solid grey;
-}
-
-.articulo3 {
-    grid-area: articulo3;
-    background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
-    aspect-ratio: auto;
-    border: 1px solid grey;
-}
-
-.articulo4 {
-    grid-area: articulo4;
-    background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
-    aspect-ratio: auto;
-    border: 1px solid grey;
-}
-
-.destacada {
-    max-width: 50%;
-}
-
-.mitad {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.mitad:nth-child(2) {
-    align-items: flex-end;
-}
-
-.mitad .logo-normal {
-    border-radius: 13px;
-}
-
-.articulos .mitad .info .title,
-.articulos .mitad .info .handle {
-    color: black
-}
-
-.mitad .destacada {
-    max-width: 100%;
-    border-radius: 13px;
-}
-
-@media (max-width: 768px) {
-    .articulos {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-
-        grid-template-areas:
-
-            "articulo1"
-            "articulo2"
-            "articulo3"
-            "articulo4"
-
-    }
-}
-
-/* Bloque Portfolio */
-.trabajos {
-    padding-bottom: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px 20px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "trabajo1 trabajo2 trabajo3 trabajo4"
-        "trabajo1 trabajo5 trabajo6 trabajo4";
-    height: auto;
-}
-
-.trabajo1 {
-    grid-area: trabajo1;
-    background: linear-gradient(180deg, #1E8FFF 0%, #0E43FF 100%);
-    aspect-ratio: auto;
-}
-
-.trabajo2 {
-    grid-area: trabajo2;
-    background-image: url('./images/trabajo2.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.trabajo3 {
-    grid-area: trabajo3;
-    background-image: url('./images/trabajo3.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.trabajo4 {
-    grid-area: trabajo4;
-    background-image: url('./images/trabajo4.webp');
-    aspect-ratio: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.trabajo5 {
-    grid-area: trabajo5;
-    background-image: url('./images/trabajo5.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.trabajo6 {
-    grid-area: trabajo6;
-    background-image: url('./images/trabajo6.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-@media (max-width: 768px) {
-    .trabajos {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-
-        grid-template-areas:
-            "trabajo1 trabajo2"
-            "trabajo1 trabajo5"
-            "trabajo3 trabajo4"
-            "trabajo6 trabajo4"
-    }
-}
-
-/* Bloque redes cine y tv */
-.tv {
-    padding-bottom: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px 20px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "tv1 tv2"
-        "tv3 tv4";
-}
-
-.caja-tv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.tv1 {
-    grid-area: tv1;
-    background: linear-gradient(180deg, #FFDF00 0%, rgba(255, 223, 0, 0.75) 100%);
-    aspect-ratio: auto;
-}
-
-.tv2 {
-    grid-area: tv2;
-    background: linear-gradient(180deg, #2F2F34 0%, #18181B 100%);
-    aspect-ratio: auto;
-}
-
-.tv3 {
-    grid-area: tv3;
-    background: linear-gradient(180deg, #2F2F34 0%, #18181B 100%);
-    aspect-ratio: auto;
-}
-
-.tv4 {
-    grid-area: tv4;
-    background: linear-gradient(180deg, #2F2F34 0%, #18181B 100%);
-    aspect-ratio: auto;
-}
-
-.poster {
-    max-width: 50%;
-}
-
-.mitad {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.mitad:nth-child(2) {
-    align-items: flex-end;
-}
-
-
-@media (max-width: 768px) {
-    .tv {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-            "tv1"
-            "tv2"
-            "tv3"
-            "tv4"
-    }
-}
-
-.juegos {
-    padding-bottom: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 20px 20px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "juego1 juego2 juego3 juego4";
-}
-
-.juegos img,
-.trabajos img {
-    max-width: 100%;
-    border-radius: 13px;
-}
-
-.caja-juego {
-    padding: 0;
-}
-
-.juego1 {
-    grid-area: juego1;
-}
-
-.juego2 {
-    grid-area: juego2;
-}
-
-.juego3 {
-    grid-area: juego3;
-}
-
-.juego4 {
-    grid-area: juego4;
-}
-
-@media (max-width: 768px) {
-    .juegos {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-            "juego1 juego2"
-            "juego3 juego4"
-    }
-}
-
-
-.cosas {
-    padding-bottom: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px 20px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "cosa1 cosa2"
-        "cosa1 cosa3";
-    height: auto;
-}
-
-.cosa1 {
-    grid-area: cosa1;
-    background-image: url('images/mapa.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-}
-
-.cosa2 {
-    grid-area: cosa2;
-    background: linear-gradient(180deg, #7761FF 0%, #392CE0 100%);
-    color: white;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: calc(var(--widget-unit-h) * 26px);
-    padding: 20px;
-}
-
-.cosa3 {
-    grid-area: cosa3;
-    background: linear-gradient(180deg, #FAE5A9 0%, #FFCE21 100%);
-}
-
-@media (max-width: 768px) {
-    .cosas {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-            "cosa1"
-            "cosa1"
-            "cosa2"
-            "cosa3"
-    }
-}
-
-footer {
-    text-align: center;
-    font-size: 13px;
-    line-height: 2rem;
-}
+            font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                "Segoe UI Symbol";
+        }
+
+        .contenido {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 44px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-top: 0px;
+        }
+
+        h3 {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1500px;
+            width: 100%;
+            padding: 0rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .column {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .sticky-column {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 4rem;
+        }
+
+        @media (min-width: 1100px) {
+            .container {
+                padding: 4rem;
+            }
+
+            .column {
+                width: 25%;
+                margin-right: 2%;
+                padding: 0;
+            }
+
+
+
+            .column:last-child {
+                width: 70%;
+                max-width: 820px;
+            }
+        }
+
+        .avatar {
+            border-radius: 50%;
+        }
+
+        /* Bloque redes sociales */
+        .sociales {
+            padding-bottom: 4rem;
+            display: grid;
+            gap: 20px 20px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "mastodon mastodon instagram instagram"
+                "Linkedin GitHub instagram instagram"
+                "Pinterest medium email read";
+        }
+
+        .caja {
+            border-radius: 13px;
+            padding: 23px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 110px;
+            min-width: 110px;
+            transition: transform 0.5s ease;
+        }
+
+        .caja:hover {
+            transform: scale(1.02);
+        }
+
+        .info *:not(.info) {
+            padding: 0;
+            margin: 0;
+            padding-right: 20px;
+        }
+
+        .logo-blanco {
+            width: 45px;
+            height: 45px;
+            filter: brightness(0) saturate(100%) invert(100%);
+        }
+
+        .logo-normal {
+            width: 45px;
+            height: 45px;
+        }
+
+        .logo-coffe {
+            width: 35px;
+        }
+
+        .medium .logo-blanco {
+            width: 45px;
+            height: 45px;
+        }
+
+        .info {
+            padding: 0;
+            margin: 0;
+        }
+
+        .title {
+            color: #FBFBFB;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .handle {
+            color: #FBFBFB;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+        }
+
+        .black {
+            color: black;
+        }
+
+        .logo-normal {
+            width: 45px;
+            height: 45px;
+        }
+
+        .mastodon {
+            grid-area: mastodon;
+            background: linear-gradient(180deg, #7761FF 0%, #392CE0 100%);
+        }
+
+        .instagram {
+            grid-area: instagram;
+            background: radial-gradient(68.43% 68.43% at 7.43% 6.00%, #3C93E3 24.84%, rgba(60, 147, 227, 0.00) 100%),
+                radial-gradient(126.35% 126.35% at 13.71% 110.29%, #FFDA55 0%, #F03D63 45.35%, #B72DC0 100%);
+            background-blend-mode: hard-light, normal;
+        }
+
+        .linkedin {
+            grid-area: Linkedin;
+            background: linear-gradient(180deg, #3D77C7 0%, #195AB5 100%);
+        }
+
+        .github {
+            grid-area: GitHub;
+            background: linear-gradient(180deg, #25262F 0%, #0C0D16 100%);
+
+        }
+
+        .pinterest {
+            grid-area: Pinterest;
+            background: linear-gradient(180deg, #FF1539 0%, #D40020 100%);
+
+        }
+
+        .medium {
+            grid-area: medium;
+            background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
+
+        }
+
+        .email {
+            grid-area: email;
+            background: linear-gradient(180deg, #9146FF 0%, #6209E5 100%);
+
+        }
+
+        .read {
+            grid-area: read;
+            background: linear-gradient(180deg, #25262F 0%, #0C0D16 100%);
+
+        }
+
+        @media (max-width: 768px) {
+            .sociales {
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas:
+                    "mastodon mastodon"
+                    "instagram instagram"
+                    "Linkedin GitHub"
+                    "Pinterest medium"
+                    "email read";
+            }
+
+            .mastodon {
+                grid-column: span 2;
+            }
+
+            .instagram {
+                grid-column: span 2;
+            }
+        }
+
+        /* Bloque articulos */
+
+        .articulos {
+            padding-bottom: 4rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px 20px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "articulo1 articulo2"
+                "articulo3 articulo4";
+        }
+
+        .caja-articulo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .articulo1 {
+            grid-area: articulo1;
+            background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
+            aspect-ratio: auto;
+            border: 1px solid grey;
+        }
+
+        .articulo2 {
+            grid-area: articulo2;
+            background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
+            aspect-ratio: auto;
+            border: 1px solid grey;
+        }
+
+        .articulo3 {
+            grid-area: articulo3;
+            background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
+            aspect-ratio: auto;
+            border: 1px solid grey;
+        }
+
+        .articulo4 {
+            grid-area: articulo4;
+            background: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
+            aspect-ratio: auto;
+            border: 1px solid grey;
+        }
+
+        .destacada {
+            max-width: 50%;
+        }
+
+        .mitad {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .mitad:nth-child(2) {
+            align-items: flex-end;
+        }
+
+        .mitad .logo-normal {
+            border-radius: 13px;
+        }
+
+        .articulos .mitad .info .title,
+        .articulos .mitad .info .handle {
+            color: black
+        }
+
+        .mitad .destacada {
+            max-width: 100%;
+            border-radius: 13px;
+        }
+
+        @media (max-width: 768px) {
+            .articulos {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+
+                grid-template-areas:
+
+                    "articulo1"
+                    "articulo2"
+                    "articulo3"
+                    "articulo4"
+
+            }
+        }
+
+        /* Bloque Portfolio */
+        .trabajos {
+            padding-bottom: 4rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px 20px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "trabajo1 trabajo2 trabajo3 trabajo4"
+                "trabajo1 trabajo5 trabajo6 trabajo4";
+            height: auto;
+        }
+
+        .trabajo1 {
+            grid-area: trabajo1;
+            background: linear-gradient(180deg, #1E8FFF 0%, #0E43FF 100%);
+            aspect-ratio: auto;
+        }
+
+        .trabajo2 {
+            grid-area: trabajo2;
+            background-image: url('./images/trabajo2.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .trabajo3 {
+            grid-area: trabajo3;
+            background-image: url('./images/trabajo3.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .trabajo4 {
+            grid-area: trabajo4;
+            background-image: url('./images/trabajo4.webp');
+            aspect-ratio: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .trabajo5 {
+            grid-area: trabajo5;
+            background-image: url('./images/trabajo5.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .trabajo6 {
+            grid-area: trabajo6;
+            background-image: url('./images/trabajo6.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        @media (max-width: 768px) {
+            .trabajos {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+
+                grid-template-areas:
+                    "trabajo1 trabajo2"
+                    "trabajo1 trabajo5"
+                    "trabajo3 trabajo4"
+                    "trabajo6 trabajo4"
+            }
+        }
+
+        /* Bloque redes cine y tv */
+        .tv {
+            padding-bottom: 4rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px 20px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "tv1 tv2"
+                "tv3 tv4";
+        }
+
+        .caja-tv {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .tv1 {
+            grid-area: tv1;
+            background: linear-gradient(180deg, #FFDF00 0%, rgba(255, 223, 0, 0.75) 100%);
+            aspect-ratio: auto;
+        }
+
+        .tv2 {
+            grid-area: tv2;
+            background: linear-gradient(180deg, #2F2F34 0%, #18181B 100%);
+            aspect-ratio: auto;
+        }
+
+        .tv3 {
+            grid-area: tv3;
+            background: linear-gradient(180deg, #2F2F34 0%, #18181B 100%);
+            aspect-ratio: auto;
+        }
+
+        .tv4 {
+            grid-area: tv4;
+            background: linear-gradient(180deg, #2F2F34 0%, #18181B 100%);
+            aspect-ratio: auto;
+        }
+
+        .poster {
+            max-width: 50%;
+        }
+
+        .mitad {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .mitad:nth-child(2) {
+            align-items: flex-end;
+        }
+
+
+        @media (max-width: 768px) {
+            .tv {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-areas:
+                    "tv1"
+                    "tv2"
+                    "tv3"
+                    "tv4"
+            }
+        }
+
+        .juegos {
+            padding-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 20px 20px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "juego1 juego2 juego3 juego4";
+        }
+
+        .juegos img,
+        .trabajos img {
+            max-width: 100%;
+            border-radius: 13px;
+        }
+
+        .caja-juego {
+            padding: 0;
+        }
+
+        .juego1 {
+            grid-area: juego1;
+        }
+
+        .juego2 {
+            grid-area: juego2;
+        }
+
+        .juego3 {
+            grid-area: juego3;
+        }
+
+        .juego4 {
+            grid-area: juego4;
+        }
+
+        @media (max-width: 768px) {
+            .juegos {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-template-areas:
+                    "juego1 juego2"
+                    "juego3 juego4"
+            }
+        }
+
+        .cosas {
+            padding-bottom: 4rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px 20px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "cosa1 cosa2"
+                "cosa1 cosa3";
+            height: auto;
+        }
+
+        .cosa1 {
+            grid-area: cosa1;
+            background-image: url('images/mapa.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left bottom;
+        }
+
+        .cosa2 {
+            grid-area: cosa2;
+            background: linear-gradient(180deg, #1E8FFF 0%, #0E43FF 100%);
+            color: white;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: calc(var(--widget-unit-h) * 26px);
+            padding: 20px;
+        }
+
+        .cosa3 {
+            grid-area: cosa3;
+            background: linear-gradient(180deg, #FAE5A9 0%, #FFCE21 100%);
+        }
+
+        @media (max-width: 768px) {
+            .cosas {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-areas:
+                    "cosa1"
+                    "cosa1"
+                    "cosa2"
+                    "cosa3"
+            }
+        }
+
+        footer {
+            text-align: center;
+            font-size: 13px;
+            line-height: 2rem;
+        }
     </style>
 </head>
 
 <body>
     <div class="contenido">
-    <div class="container">
-        <div class="column aparecer">
-            <!-- Contenido de la primera columna -->
-            <div class="sticky-column">
-                <img class="avatar" src="images/AJRA.webp" alt="AJRA" width="200px" height="200px">
-                <h1>AJRA</h1>
-                <h2>👨🏻‍💻 Web Developer & Data Analyst</h2>
-                <h3>Ayudo a personas y empresas a mejorar su presencia online.</h3>
+        <div class="container">
+            <div class="column aparecer">
+                <!-- Contenido de la primera columna -->
+                <div class="sticky-column">
+                    <img class="avatar" src="images/AJRA.webp" alt="AJRA" width="200px" height="200px">
+                    <h1>AJRA</h1>
+                    <h2>👨🏻‍💻 Web Developer & Data Analyst</h2>
+                    <h3>Ayudo a personas y empresas a mejorar su presencia online.</h3>
+                </div>
             </div>
-        </div>
-        <div class="column">
-            <!-- Contenido de la segunda columna -->
+            <div class="column">
+                <!-- Contenido de la segunda columna -->
 
-            <!-- Contenido Redes Sociales -->
-            <h2 class="aparecer">Puedes encontrarme en...</h2>
-            <div class="sociales">
-                <a href="https://mastodon.social/@ajra" target="_blank" class="caja mastodon">
-                    <img class="logo-blanco" src="images/mastodon.svg" alt="Mastodon Logo">
-                    <div class="info">
-                        <h2 class="title">Mastodon</h2>
-                        <p class="handle">@AJRA</p>
-                    </div>
-                </a>
-
-                <a href="https://www.instagram.com/Ajra_toni/" target="_blank" class="caja instagram">
-                    <img class="logo-blanco" src="images/instagram.svg" alt="Instagram Logo">
-                    <div class="info">
-                        <h2 class="title">Instagram</h2>
-                        <p class="handle">@AJRA_Toni</p>
-                    </div>
-                </a>
-
-                <a href="https://www.linkedin.com/in/ajratoni/" target="_blank" class="caja linkedin">
-                    <img class="logo-blanco" src="images/linkedin.svg" alt="LinkedIn Logo">
-                    <div class="info">
-                        <h2 class="title">LinkedIn</h2>
-                        <p class="handle">@ajratoni</p>
-                    </div>
-                </a>
-
-                <a href="https://github.com/ajratoni/" target="_blank" class="caja github">
-                    <img class="logo-blanco" src="images/github.svg" alt="GitHub Logo">
-                    <div class="info">
-                        <h2 class="title">GitHub</h2>
-                        <p class="handle">@AJRA</p>
-                    </div>
-                </a>
-
-                <a href="https://www.pinterest.com/ajra/" target="_blank" class="caja pinterest">
-                    <img class="logo-blanco" src="images/pinterest.svg" alt="Pinterest Logo">
-                    <div class="info">
-                        <h2 class="title">Pinterest</h2>
-                        <p class="handle">@AJRA</p>
-                    </div>
-                </a>
-
-                <a href="https://ajra.medium.com/" target="_blank" class="caja medium">
-                    <img class="logo-normal" src="images/medium.svg" alt="Medium Logo">
-                    <div class="info black">
-                        <h2 class="title black">Medium</h2>
-                        <p class="handle black">@AJRA</p>
-                    </div>
-                </a>
-
-                <a href="mailto:info@ajra.es" target="_blank" class="caja email">
-                    <img class="logo-blanco" src="images/email.svg" alt="Email Logo">
-                    <div class="info black">
-                        <h2 class="title">Email</h2>
-                        <p class="handle">@AJRA</p>
-                    </div>
-                </a>
-
-                <a href="https://read.cv/ajra" target="_blank" class="caja read">
-                    <img class="logo-blanco" src="images/read.svg" alt="Read Logo">
-                    <div class="info black">
-                        <h2 class="title">Read</h2>
-                        <p class="handle">@AJRA</p>
-                    </div>
-                </a>
-            </div>
-
-
-            <!-- Mis Articulos -->
-            <h2 class="aparecer-titulo">Mis últimas publicaciones...</h2>
-            <div class="articulos">
-                <a href="https://news.ajra.es/p/070" target="_blank" class="caja caja-articulo articulo1">
-                    <div class="mitad">
-                        <img class="logo-normal" src="images/AJRA.webp" alt="AJRA">
+                <!-- Contenido Redes Sociales -->
+                <h2 class="aparecer">Puedes encontrarme en...</h2>
+                <div class="sociales">
+                    <a href="https://mastodon.social/@ajra" target="_blank" class="caja mastodon">
+                        <img class="logo-blanco" src="images/mastodon.svg" alt="Mastodon Logo">
                         <div class="info">
-                            <h2 class="title">📬 #070</h2>
-                            <p class="handle">news.ajra.es</p>
+                            <h2 class="title">Mastodon</h2>
+                            <p class="handle">@AJRA</p>
                         </div>
-                    </div>
-                    <div class="mitad">
-                        <img class="destacada" src="images/articulo1.webp" alt="articulo">
-                    </div>
-                </a>
-                <a href="https://news.ajra.es/p/069" target="_blank" class="caja caja-articulo articulo2">
-                    <div class="mitad">
-                        <img class="logo-normal" src="images/AJRA.webp"  alt="AJRA">
+                    </a>
+
+                    <a href="https://www.instagram.com/Ajra_toni/" target="_blank" class="caja instagram">
+                        <img class="logo-blanco" src="images/instagram.svg" alt="Instagram Logo">
                         <div class="info">
-                            <h2 class="title">📬 #069</h2>
-                            <p class="handle">news.ajra.es</p>
+                            <h2 class="title">Instagram</h2>
+                            <p class="handle">@AJRA_Toni</p>
                         </div>
-                    </div>
-                    <div class="mitad">
-                        <img class="destacada" src="images/articulo2.webp"  alt="articulo">
-                    </div>
-                </a>
-                <a href="https://ajra.medium.com/mi-plan-de-salud-para-2023-11f300f7c8db" target="_blank" class="caja caja-articulo articulo3">
-                    <div class="mitad">
-                        <img class="logo-normal" src="images/medium.svg"  alt="Medium">
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ajratoni/" target="_blank" class="caja linkedin">
+                        <img class="logo-blanco" src="images/linkedin.svg" alt="LinkedIn Logo">
                         <div class="info">
-                            <h2 class="title">Mi plan de salud para 2023</h2>
-                            <p class="handle">ajra.medium.com</p>
+                            <h2 class="title">LinkedIn</h2>
+                            <p class="handle">@ajratoni</p>
                         </div>
-                    </div>
-                    <div class="mitad">
-                        <img class="destacada" src="images/articulo3.webp"  alt="articulo">
+                    </a>
 
-                    </div>
-                </a>
-                <a href="https://news.ajra.es/p/068" target="_blank" class="caja caja-articulo articulo4">
-                    <div class="mitad">
-                        <img class="logo-normal" src="images/AJRA.webp"  alt="AJRA">
+                    <a href="https://github.com/ajratoni/" target="_blank" class="caja github">
+                        <img class="logo-blanco" src="images/github.svg" alt="GitHub Logo">
                         <div class="info">
-                            <h2 class="title">📬 #068</h2>
-                            <p class="handle">news.ajra.es</p>
+                            <h2 class="title">GitHub</h2>
+                            <p class="handle">@AJRA</p>
                         </div>
-                    </div>
-                    <div class="mitad">
-                        <img class="destacada" src="images/articulo4.webp" loading="lazy" alt="articulo">
+                    </a>
 
-                    </div>
-                </a>
-            </div>
-
-            <!-- Contenido Trabajos -->
-            <h2>Mis Trabajos...</h2>
-            <div class="trabajos">
-                <a href="https://www.behance.net/ajratoni" class="caja trabajo1">
-                    <img class="logo-blanco" src="images/behance.svg" alt="Mastodon Logo" loading="lazy">
-                    <div class="info">
-                        <h2 class="title">Behance</h2>
-                        <p class="handle">@AJRA</p>
-                    </div>
-                </a>
-                <a href="https://marvelstudios.carrd.co/" class="caja trabajo2"></a>
-                <a href="https://recursos.ajra.es/" class="caja trabajo3"></a>
-                <a href="https://atifonline.org/" class="caja trabajo4"></a>
-                <a href="https://dcuniverse.carrd.co/" class="caja trabajo5"></a>
-                <a href="https://www.carlosmiguelcortes.com/" class="caja trabajo6"></a>
-            </div>
-
-            <!-- Estoy viendo -->
-            <h2>¿Que estoy viendo?</h2>
-            <div class="tv">
-                <a href="https://www.tvtime.com/es/user/5055188/profile" target="_blank" class="caja tv1">
-                    <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
-                    <div class="info">
-                        <h2 class="title black">TV Time</h2>
-                        <p class="handle black">@AJRA</p>
-                    </div>
-                </a>
-                <a href="https://tvtime.com/r/2UhUN" target="_blank" class="caja caja-tv tv2">
-                    <div class="mitad">
-                        <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
+                    <a href="https://www.pinterest.com/ajra/" target="_blank" class="caja pinterest">
+                        <img class="logo-blanco" src="images/pinterest.svg" alt="Pinterest Logo">
                         <div class="info">
-                            <h2 class="title">SILO</h2>
-                            <p class="handle">Apple TV+</p>
+                            <h2 class="title">Pinterest</h2>
+                            <p class="handle">@AJRA</p>
                         </div>
-                    </div>
-                    <div class="mitad">
-                        <img class="poster" src="images/silo.webp" loading="lazy" alt="Poster">
-                    </div>
-                </a>
-                <a href="https://www.tvtime.com/es/show/366972" target="_blank" class="caja caja-tv tv3">
-                    <div class="mitad">
-                        <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
-                        <div class="info">
-                            <h2 class="title">Fundacion</h2>
-                            <p class="handle">Apple TV+</p>
+                    </a>
+
+                    <a href="https://ajra.medium.com/" target="_blank" class="caja medium">
+                        <img class="logo-normal" src="images/medium.svg" alt="Medium Logo">
+                        <div class="info black">
+                            <h2 class="title black">Medium</h2>
+                            <p class="handle black">@AJRA</p>
                         </div>
-                    </div>
-                    <div class="mitad">
-                        <img class="poster"
-                            src="images/fundacion.webp" loading="lazy" alt="Poster">
-                    </div>
-                </a>
-                <a href="https://www.tvtime.com/es/show/368126" target="_blank" class="caja caja-tv tv4">
-                    <div class="mitad">
-                        <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
-                        <div class="info">
-                            <h2 class="title">Servant</h2>
-                            <p class="handle">Apple TV+</p>
+                    </a>
+
+                    <a href="mailto:info@ajra.es" target="_blank" class="caja email">
+                        <img class="logo-blanco" src="images/email.svg" alt="Email Logo">
+                        <div class="info black">
+                            <h2 class="title">Email</h2>
+                            <p class="handle">@AJRA</p>
                         </div>
-                    </div>
-                    <div class="mitad">
-                        <img class="poster"
-                            src="images/servant.webp" loading="lazy" alt="Poster">
-                    </div>
-                </a>
-            </div>
+                    </a>
 
-            <!-- Estoy jugando -->
-            <h2>¿A que estoy jugando?</h2>
-            <div class="juegos">
-                <a href="https://gametrack.app/users/ajra/" class="caja caja-juego" ><img src="images/gametrack.webp" class="juego1" loading="lazy" alt="juego"></a>
-                <a href="https://gametrack.app/game/7346" class="caja caja-juego" ><img src="images/zelda.webp" class="juego2" loading="lazy" alt="juego"></a>
-                <a href="https://gametrack.app/game/119171" class="caja caja-juego" ><img src="images/baldur.webp" class="juego3" loading="lazy" alt="juego"></a>
-                <a href="https://gametrack.app/game/135999/" class="caja caja-juego"><img src="images/tetris.webp" class="juego4" loading="lazy" alt="juego"></a>
-            </div>
-            
-
-            <!-- Otras cosas -->
-            <h2>Otras cosas...</h2>
-            <div class="cosas">
-
-               <a href="https://www.google.com/maps/@25.682489454072723,-80.4194488346887,9.591831176230313z" class="caja cosa1"> </a>
-                
-               <div class="caja cosa2">
-                    <p><strong>¿Has hecho las cosas?</strong></p>
-                    <p>Recuerda hacer las cosas, las cosas no se van a hacer solas.</p>
+                    <a href="https://read.cv/ajra" target="_blank" class="caja read">
+                        <img class="logo-blanco" src="images/read.svg" alt="Read Logo">
+                        <div class="info black">
+                            <h2 class="title">Read</h2>
+                            <p class="handle">@AJRA</p>
+                        </div>
+                    </a>
                 </div>
 
-                <a href="https://www.buymeacoffee.com/ajra" target="_blank" class="caja cosa3">
-                    <img class="logo-coffe" src="images/buymeacoffee.webp" alt="BuyMeaCoffe Logo" loading="lazy">
-                    <div class="info">
-                        <h2 class="title black">Comprame un cafe</h2>
-                        <p class="handle black">@AJRA</p>
+
+                <!-- Mis Articulos -->
+                <h2 class="aparecer-titulo">Mis últimas publicaciones...</h2>
+                <div class="articulos">
+                    <a href="https://news.ajra.es/p/070" target="_blank" class="caja caja-articulo articulo1">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/AJRA.webp" alt="AJRA">
+                            <div class="info">
+                                <h2 class="title">📬 #070</h2>
+                                <p class="handle">news.ajra.es</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="destacada" src="images/articulo1.webp" alt="articulo">
+                        </div>
+                    </a>
+                    <a href="https://news.ajra.es/p/069" target="_blank" class="caja caja-articulo articulo2">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/AJRA.webp" alt="AJRA">
+                            <div class="info">
+                                <h2 class="title">📬 #069</h2>
+                                <p class="handle">news.ajra.es</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="destacada" src="images/articulo2.webp" alt="articulo">
+                        </div>
+                    </a>
+                    <a href="https://ajra.medium.com/mi-plan-de-salud-para-2023-11f300f7c8db" target="_blank"
+                        class="caja caja-articulo articulo3">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/medium.svg" alt="Medium">
+                            <div class="info">
+                                <h2 class="title">Mi plan de salud para 2023</h2>
+                                <p class="handle">ajra.medium.com</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="destacada" src="images/articulo3.webp" alt="articulo">
+
+                        </div>
+                    </a>
+                    <a href="https://news.ajra.es/p/068" target="_blank" class="caja caja-articulo articulo4">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/AJRA.webp" alt="AJRA">
+                            <div class="info">
+                                <h2 class="title">📬 #068</h2>
+                                <p class="handle">news.ajra.es</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="destacada" src="images/articulo4.webp" loading="lazy" alt="articulo">
+
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Contenido Trabajos -->
+                <h2>Mis Trabajos...</h2>
+                <div class="trabajos">
+                    <a href="https://www.behance.net/ajratoni" class="caja trabajo1">
+                        <img class="logo-blanco" src="images/behance.svg" alt="Mastodon Logo" loading="lazy">
+                        <div class="info">
+                            <h2 class="title">Behance</h2>
+                            <p class="handle">@AJRA</p>
+                        </div>
+                    </a>
+                    <a href="https://marvelstudios.carrd.co/" class="caja trabajo2"></a>
+                    <a href="https://recursos.ajra.es/" class="caja trabajo3"></a>
+                    <a href="https://atifonline.org/" class="caja trabajo4"></a>
+                    <a href="https://dcuniverse.carrd.co/" class="caja trabajo5"></a>
+                    <a href="https://www.carlosmiguelcortes.com/" class="caja trabajo6"></a>
+                </div>
+
+                <!-- Estoy viendo -->
+                <h2>¿Que estoy viendo?</h2>
+                <div class="tv">
+                    <a href="https://www.tvtime.com/es/user/5055188/profile" target="_blank" class="caja tv1">
+                        <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
+                        <div class="info">
+                            <h2 class="title black">TV Time</h2>
+                            <p class="handle black">@AJRA</p>
+                        </div>
+                    </a>
+                    <a href="https://tvtime.com/r/2UhUN" target="_blank" class="caja caja-tv tv2">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
+                            <div class="info">
+                                <h2 class="title">SILO</h2>
+                                <p class="handle">Apple TV+</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="poster" src="images/silo.webp" loading="lazy" alt="Poster">
+                        </div>
+                    </a>
+                    <a href="https://www.tvtime.com/es/show/366972" target="_blank" class="caja caja-tv tv3">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
+                            <div class="info">
+                                <h2 class="title">Fundacion</h2>
+                                <p class="handle">Apple TV+</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="poster" src="images/fundacion.webp" loading="lazy" alt="Poster">
+                        </div>
+                    </a>
+                    <a href="https://www.tvtime.com/es/show/368126" target="_blank" class="caja caja-tv tv4">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
+                            <div class="info">
+                                <h2 class="title">Servant</h2>
+                                <p class="handle">Apple TV+</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="poster" src="images/servant.webp" loading="lazy" alt="Poster">
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Estoy jugando -->
+                <h2>¿A que estoy jugando?</h2>
+                <div class="juegos">
+                    <a href="https://gametrack.app/users/ajra/" class="caja caja-juego"><img src="images/gametrack.webp"
+                            class="juego1" loading="lazy" alt="juego"></a>
+                    <a href="https://gametrack.app/game/7346" class="caja caja-juego"><img src="images/zelda.webp"
+                            class="juego2" loading="lazy" alt="juego"></a>
+                    <a href="https://gametrack.app/game/119171" class="caja caja-juego"><img src="images/baldur.webp"
+                            class="juego3" loading="lazy" alt="juego"></a>
+                    <a href="https://gametrack.app/game/135999/" class="caja caja-juego"><img src="images/tetris.webp"
+                            class="juego4" loading="lazy" alt="juego"></a>
+                </div>
+
+
+                <!-- Otras cosas -->
+                <h2>Otras cosas...</h2>
+                <div class="cosas">
+
+                    <a href="https://www.google.com/maps/@25.682489454072723,-80.4194488346887,9.591831176230313z"
+                        class="caja cosa1"> </a>
+
+                    <div class="caja cosa2">
+                        <p><strong>¿Has hecho las cosas?</strong></p>
+                        <p>Recuerda hacer las cosas, las cosas no se van a hacer solas.</p>
                     </div>
-                </a>
+
+                    <a href="https://www.buymeacoffee.com/ajra" target="_blank" class="caja cosa3">
+                        <img class="logo-coffe" src="images/buymeacoffee.webp" alt="BuyMeaCoffe Logo" loading="lazy">
+                        <div class="info">
+                            <h2 class="title black">Comprame un cafe</h2>
+                            <p class="handle black">@AJRA</p>
+                        </div>
+                    </a>
+                </div>
+
+
             </div>
-
-
         </div>
     </div>
-</div>
-<footer>2023 &copy; Desarrollado con 🧠  & 💛 por &lt;/AJRA&gt; </footer>
+    <footer>2023 &copy; Desarrollado con 🧠 & 💛 por &lt;/AJRA&gt; </footer>
 </body>
+
 </html>
