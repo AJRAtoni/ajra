@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos by AJRA</title>
+    <title>RECURSOS by AJRA</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="images/AJRA.png">
     <meta name="description" content="EVENTOS by AJRA">
@@ -56,21 +56,23 @@
     cardImage.alt = event.recurso;
 
     const cardBody = document.createElement('div');
-    cardBody.classList.add('card-body');
+    cardBody.className = 'card-body';
 
     const cardTitle = document.createElement('h2');
     cardTitle.className = 'recurso';
     cardTitle.textContent = event.recurso;
 
     const cardDescription = document.createElement('p');
+    cardDescription.className = 'descripcion';
     cardDescription.textContent = event.descripcion;
+
 
     const cardButtonContainer = document.createElement('div');
     cardButtonContainer.classList.add('faltan-container'); 
 
     const cardButton = document.createElement('a');
     cardButton.href = event.url;
-    cardButton.textContent = 'Ver recurso';
+    cardButton.textContent = 'VER RECURSO';
     cardButton.classList.add('faltan');
 
     cardButtonContainer.appendChild(cardButton);
