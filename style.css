@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+}
+.home {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 500px;
+}
+.home h1,
+.home h2 {
+    text-align: center;
+    margin: 5px;
+}
+h2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.avatar {
+    max-width: 75px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+}
+.avatar:hover {
+    transform: scale(1.05);
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 1rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+.card-body {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem;
+}
+.recurso {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem;
+    text-decoration: none;
+}
+.fecha {
+    color: #757575;
+    font-size: 0.875rem;
+    padding-bottom: 0.75rem;
+    margin-top: 0;
+}
+.descripcion {
+    color: #0a0a0a;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    flex: 1;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5px;
+}
+.faltan-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 7px;
+}
+.faltan {
+    display: inline-block;
+    background-color: rgb(108, 41, 240);
+    font-size: 0.875rem;
+    color: white;
+    padding: 0.65rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+.iCal {
+    display: inline-block;
+    background-color: rgb(108, 41, 240);
+    font-size: 0.875rem;
+    color: white;
+    padding: 0.65rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    min-width: 15px;
+    transition: transform 0.2s ease-in-out;
+    font-weight: bold;}
+
+.iCal:hover {transform: scale(1.05);}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    line-height: 2rem;
+    margin-top: 4rem;
+}
+.suscribirse {
+    display: inline-block;
+    background-color: rgb(108, 41, 240);
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 1.2rem !important;
+    transition: transform 0.5s ease-in-out;
+}
+.suscribirse:hover {
+    transform: scale(1.05);
+}
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
