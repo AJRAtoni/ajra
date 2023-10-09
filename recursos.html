@@ -26,8 +26,6 @@
         <h1>RECURSOS by AJRA</h1>
         <h2>Bienvenido a mi directorio, donde descubrirás los recursos y herramientas No-Code que te ayudarán a crear y hacer crecer tu negocio online, sin necesidad de saber nada de código.</h2>
     </div>
-
-
     <div id="events" class="row"></div>
     <footer>2023 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
             style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
@@ -42,14 +40,10 @@
     function createRecursoCard(event) {
         const card = document.createElement('div');
         card.classList.add('card');
-
         const cardLink = document.createElement('a');
         cardLink.href = event.url;
-
         const cardImage = createCardImage(event.imagen, event.recurso);
-
         const cardBody = createCardBody(event.recurso, event.descripcion);
-
         cardLink.appendChild(cardImage);
         cardLink.appendChild(cardBody);
         card.appendChild(cardLink);
@@ -68,18 +62,14 @@
     function createCardBody(title, description) {
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
-
         const cardTitle = document.createElement('h2');
         cardTitle.className = 'recurso';
         cardTitle.textContent = title;
-
         const cardDescription = document.createElement('p');
         cardDescription.className = 'descripcion';
         cardDescription.textContent = description;
-
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardDescription);
-
         return cardBody;
     }
 
@@ -109,10 +99,10 @@
                 console.error('Error:', error);
             });
     }
-
     document.addEventListener('DOMContentLoaded', fetchGoogleSheetResources);
 </script>
 
 <style>
    a {text-decoration: none; color: black;}
+   .home h2 {margin: 5px 25px;}
 </style>
