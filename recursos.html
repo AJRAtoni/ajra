@@ -33,105 +33,86 @@
             style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
 </body>
 </html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
 <script>
     const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
     const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
     const recursosContainer = document.getElementById('events');
-    let currentFilter = 'TODOS';
-    let search = '';
     
+    // Función para crear una tarjeta de recurso
+    function createRecursoCard(event) {
+        const card = document.createElement('div');
+        card.classList.add('card');
 
-    
-    const createRecursoCard = (event) => {
-    const card = document.createElement('div');
-    card.classList.add('card');
+        const cardLink = document.createElement('a');
+        cardLink.href = event.url;
 
-    const cardLink = document.createElement('a');
-    cardLink.href = event.url;
+        const cardImage = createCardImage(event.imagen, event.recurso);
 
-    const cardImage = document.createElement('img');
-    cardImage.src = event.imagen;
-    cardImage.alt = event.recurso;
+        const cardBody = createCardBody(event.recurso, event.descripcion);
 
-    const cardBody = document.createElement('div');
-    cardBody.className = 'card-body';
+        cardLink.appendChild(cardImage);
+        cardLink.appendChild(cardBody);
+        card.appendChild(cardLink);
+        return card;
+    }
 
-    const cardTitle = document.createElement('h2');
-    cardTitle.className = 'recurso';
-    cardTitle.textContent = event.recurso;
+    // Función para crear la imagen de la tarjeta
+    function createCardImage(imageSrc, altText) {
+        const cardImage = document.createElement('img');
+        cardImage.src = imageSrc;
+        cardImage.alt = altText;
+        return cardImage;
+    }
 
-    const cardDescription = document.createElement('p');
-    cardDescription.className = 'descripcion';
-    cardDescription.textContent = event.descripcion;
+    // Función para crear el cuerpo de la tarjeta
+    function createCardBody(title, description) {
+        const cardBody = document.createElement('div');
+        cardBody.className = 'card-body';
 
+        const cardTitle = document.createElement('h2');
+        cardTitle.className = 'recurso';
+        cardTitle.textContent = title;
 
-    const cardButtonContainer = document.createElement('div');
-    cardButtonContainer.classList.add('faltan-container'); 
+        const cardDescription = document.createElement('p');
+        cardDescription.className = 'descripcion';
+        cardDescription.textContent = description;
 
-    const cardButton = document.createElement('a');
-    cardButton.href = event.url;
-    cardButton.textContent = 'VER RECURSO';
-    cardButton.classList.add('faltan');
+        cardBody.appendChild(cardTitle);
+        cardBody.appendChild(cardDescription);
 
-    cardButtonContainer.appendChild(cardButton);
+        return cardBody;
+    }
 
-    cardBody.appendChild(cardTitle);
-    cardBody.appendChild(cardDescription);
-    cardBody.appendChild(cardButtonContainer);
-    cardLink.appendChild(cardImage);
-    cardLink.appendChild(cardBody);
-    card.appendChild(cardLink);
-    return card;
-};
-
-
-function setFilter(category) {
-            currentFilter = category;
-            renderFilteredResources();
-        }
-
-        function renderFilteredResources() {
-            const filteredResources = recursos.filter(resource => {
-                return (
-                    resource.categorias.includes(currentFilter) &&
-                    resource.recurso.toLowerCase().includes(search.toLowerCase())
-                );
+    // Función para cargar recursos desde la hoja de cálculo
+    function fetchGoogleSheetResources() {
+        const sheetRange = 'Recursos!A2:E';
+        const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${sheetRange}?key=${API_KEY}`;
+        
+        fetch(sheetUrl)
+            .then(response => response.json())
+            .then(data => {
+                const rows = data.values || [];
+                const recursos = rows.map(row => {
+                    const [recurso, descripcion, imageFilename, url] = row;
+                    return {
+                        recurso,
+                        descripcion,
+                        imagen: `recursos/${imageFilename}`,
+                        url: url || '#'
+                    };
+                });
+                recursos.forEach(event => {
+                    recursosContainer.appendChild(createRecursoCard(event));
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
             });
-            recursosContainer.innerHTML = '';
-            filteredResources.forEach(resource => {
-                recursosContainer.appendChild(createRecursoCard(resource));
-            });
-        }
+    }
 
-    
-const fetchGoogleSheetResources = () => {
-    const sheetRange = 'Recursos!A2:E';
-    const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${sheetRange}?key=${API_KEY}`;
-    
-    fetch(sheetUrl)
-        .then(response => response.json())
-        .then(data => {
-            const rows = data.values || [];
-            const recursos = rows.map(row => {
-            const [recurso, descripcion, imageFilename, url, categorias] = row;
-    return {
-        recurso,
-        descripcion,
-        imagen: imageFilename ? `recursos/${imageFilename}` : placeholderimagen,
-        url: url || '#'
-    };
-});         
-            recursos.forEach(event => {
-                recursosContainer.appendChild(createRecursoCard(event));
-            });
-        })
-        .catch(error => console.error('Error:', error));
-};
-
-fetchGoogleSheetResources();
+    document.addEventListener('DOMContentLoaded', fetchGoogleSheetResources);
 </script>
+
 <style>
    a {text-decoration: none; color: black;}
 </style>
