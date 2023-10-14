@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,10 @@
     <meta property="og:image" content="eventos/eventos.png">
     <meta property="og:url" content="https://ajra.es/eventos">
     <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398"
-    async></script>
+        async></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
     <header>
         <a href="https://ajra.es">
@@ -24,18 +26,34 @@
     <div class="home">
         <img src="recursos/recursos.png" alt="AJRA" style="border-radius: 50%; margin-bottom: 25px;">
         <h1>RECURSOS by AJRA</h1>
-        <h2>Bienvenido a mi directorio, donde descubrirás los recursos y herramientas No-Code que te ayudarán a crear y hacer crecer tu negocio online, sin necesidad de saber nada de código.</h2>
+        <h2>Bienvenido a mi directorio, donde descubrirás los recursos y herramientas No-Code que te ayudarán a crear y
+            hacer crecer tu negocio online, sin necesidad de saber nada de código.</h2>
+    </div>
+    <div class="filter-buttons">
+        <button onclick="filterResources('todos')" class="botonesfiltro">TODOS</button>
+        <button onclick="filterResources('automatizaciones')" class="botonesfiltro">AUTOMATIZACIONES</button>
+        <button onclick="filterResources('datos')" class="botonesfiltro">BASES DE DATOS</button>
+        <button onclick="filterResources('web')" class="botonesfiltro">DESARROLLO WEB</button>
+        <button onclick="filterResources('grafico')" class="botonesfiltro">DISEÑO GRAFICO</button>
+        <button onclick="filterResources('email')" class="botonesfiltro">EMAIL MARKETING</button>
+        <button onclick="filterResources('formularios')" class="botonesfiltro">FORMULARIOS</button>
+        <button onclick="filterResources('ia')" class="botonesfiltro">INTELIGENCIA ARTIFICIAL</button>
+        <button onclick="filterResources('productividad')" class="botonesfiltro">PRODUCTIVIDAD</button>
+        <button onclick="filterResources('utilidades')" class="botonesfiltro">UTILIDADES</button>
+        <input type="text" id="searchInput" class="buscador" oninput="searchResources()" placeholder="Buscar recursos...">
+
     </div>
     <div id="events" class="row"></div>
     <footer>2023 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
             style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
 </body>
+
 </html>
 <script>
     const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
     const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
     const recursosContainer = document.getElementById('events');
-    
+
     // Función para crear una tarjeta de recurso
     function createRecursoCard(event) {
         const card = document.createElement('div');
@@ -73,36 +91,72 @@
         return cardBody;
     }
 
-    // Función para cargar recursos desde la hoja de cálculo
+    let allResources = [];
+
     function fetchGoogleSheetResources() {
         const sheetRange = 'Recursos!A2:E';
         const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${sheetRange}?key=${API_KEY}`;
-        
+
         fetch(sheetUrl)
             .then(response => response.json())
             .then(data => {
                 const rows = data.values || [];
-                const recursos = rows.map(row => {
-                    const [recurso, descripcion, imageFilename, url] = row;
+                allResources = rows.map(row => {
+                    const [recurso, descripcion, imageFilename, url, categoria] = row;
                     return {
                         recurso,
                         descripcion,
                         imagen: `recursos/${imageFilename}`,
-                        url: url || '#'
+                        url: url || '#',
+                        categoria
                     };
                 });
-                recursos.forEach(event => {
-                    recursosContainer.appendChild(createRecursoCard(event));
-                });
+                displayResources(allResources);
             })
             .catch(error => {
                 console.error('Error:', error);
             });
     }
+
+    function displayResources(resources) {
+        recursosContainer.innerHTML = '';
+
+        resources.forEach(event => {
+            recursosContainer.appendChild(createRecursoCard(event));
+        });
+    }
+
     document.addEventListener('DOMContentLoaded', fetchGoogleSheetResources);
+
+    function filterResources(categoria) {
+        if (categoria === 'todos') {
+            displayResources(allResources);
+        } else {
+            const filteredResources = allResources.filter(resource => resource.categoria.toLowerCase() === categoria);
+            displayResources(filteredResources);
+        }
+    }
+
+    function searchResources() {
+    const searchString = document.getElementById('searchInput').value.toLowerCase();
+
+    const filteredResources = allResources.filter(resource => 
+        resource.recurso.toLowerCase().includes(searchString) ||
+        resource.descripcion.toLowerCase().includes(searchString)
+    );
+
+    displayResources(filteredResources);
+}
+
 </script>
 
 <style>
-   a {text-decoration: none; color: black;}
-   .home h2 {margin: 5px 25px;}
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .home h2 {
+        margin: 5px 25px;
+    }
 </style>

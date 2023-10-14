@@ -12,7 +12,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 2.5rem;
     max-width: 500px;
 }
 .home h1,
@@ -139,3 +139,28 @@ footer {
     justify-content: center;
     align-items: center;
  }
+ .filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: auto;
+}
+
+.botonesfiltro {
+        background-color: rgb(108, 41, 240);
+        border: none;
+        font-size: 0.875rem;
+        color: white;
+        padding: 0.5rem 0.5rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+.buscador {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0rem 2.5rem 0rem;
+    border: 0.5 solid black;}
