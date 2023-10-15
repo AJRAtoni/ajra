@@ -129,13 +129,25 @@
     document.addEventListener('DOMContentLoaded', fetchGoogleSheetResources);
 
     function filterResources(categoria) {
-        if (categoria === 'todos') {
-            displayResources(allResources);
-        } else {
-            const filteredResources = allResources.filter(resource => resource.categoria.toLowerCase() === categoria);
-            displayResources(filteredResources);
-        }
+    document.querySelectorAll('.botonesfiltro').forEach(button => {
+        button.classList.add('inactive');
+    });
+
+    if (categoria === 'todos') {
+        document.querySelectorAll('.botonesfiltro').forEach(button => {
+            button.classList.remove('inactive');
+        });
+    } else {
+        event.currentTarget.classList.remove('inactive');
     }
+
+    if (categoria === 'todos') {
+        displayResources(allResources);
+    } else {
+        const filteredResources = allResources.filter(resource => resource.categoria.toLowerCase() === categoria);
+        displayResources(filteredResources);
+    }
+}
 
     function searchResources() {
     const searchString = document.getElementById('searchInput').value.toLowerCase();

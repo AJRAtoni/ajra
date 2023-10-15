@@ -5,6 +5,7 @@ body {
     background-color: #f0f0f0;
     overflow-x: hidden;
 }
+
 .home {
     justify-content: center;
     display: flex;
@@ -12,18 +13,21 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     max-width: 500px;
 }
+
 .home h1,
 .home h2 {
     text-align: center;
     margin: 5px;
 }
+
 h2 {
     font-size: 1rem;
     font-weight: normal;
 }
+
 .avatar {
     max-width: 75px;
     height: auto;
@@ -31,9 +35,11 @@ h2 {
     border-radius: 50%;
     transition: transform 0.5s ease-in-out;
 }
+
 .avatar:hover {
     transform: scale(1.05);
 }
+
 .card {
     background-color: white;
     border-radius: 8px;
@@ -45,10 +51,12 @@ h2 {
     display: flex;
     flex-direction: column;
 }
+
 .card img {
     max-width: 100%;
     height: auto;
 }
+
 .card-body {
     flex: 1;
     padding: 15px;
@@ -56,40 +64,47 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .titulo {
     font-weight: 700;
     font-size: 1.3rem;
     margin: 0 0 0.5rem;
 }
+
 .recurso {
     font-weight: 700;
     font-size: 1.3rem;
     margin: 0 0 0.5rem;
     text-decoration: none;
 }
+
 .fecha {
     color: #757575;
     font-size: 0.875rem;
     padding-bottom: 0.75rem;
     margin-top: 0;
 }
+
 .descripcion {
     color: #0a0a0a;
     margin-bottom: 0.75rem;
     font-size: 1rem;
     flex: 1;
 }
+
 .row {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 5px;
 }
+
 .faltan-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 7px;
 }
+
 .faltan {
     display: inline-block;
     background-color: rgb(108, 41, 240);
@@ -100,6 +115,7 @@ h2 {
     text-align: center;
     text-decoration: none;
 }
+
 .iCal {
     display: inline-block;
     background-color: rgb(108, 41, 240);
@@ -110,9 +126,12 @@ h2 {
     text-align: center;
     min-width: 15px;
     transition: transform 0.2s ease-in-out;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
-.iCal:hover {transform: scale(1.05);}
+.iCal:hover {
+    transform: scale(1.05);
+}
 
 footer {
     text-align: center;
@@ -120,6 +139,7 @@ footer {
     line-height: 2rem;
     margin-top: 4rem;
 }
+
 .suscribirse {
     display: inline-block;
     background-color: rgb(108, 41, 240);
@@ -130,37 +150,52 @@ footer {
     margin-top: 1.2rem !important;
     transition: transform 0.5s ease-in-out;
 }
+
 .suscribirse:hover {
     transform: scale(1.05);
 }
+
 .title-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
- }
- .filter-buttons {
+}
+
+.filter-buttons {
     display: flex;
     justify-content: center;
     gap: 5px;
     flex-wrap: wrap;
-    max-width: 750px;
+    max-width: 700px;
     margin: auto;
 }
 
 .botonesfiltro {
-        background-color: rgb(108, 41, 240);
-        border: none;
-        font-size: 0.875rem;
-        color: white;
-        padding: 0.5rem 0.5rem;
-        border-radius: 0.5rem;
-        text-align: center;
-        text-decoration: none;
-    }
+    background-color: rgb(108, 41, 240);
+    border: none;
+    font-size: 0.7rem;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.botonesfiltro.inactive {
+    background-color: rgb(169 128 249);
+    color: white;
+}
 
 .buscador {
     width: 100%;
     padding: 1rem;
-    margin: 1rem 0rem 2.5rem 0rem;
-    border: 0.5 solid black;}
+    margin: 1.5rem 0rem 1.5rem 0rem;
+}
+
+@media only screen and (max-width: 767px) {
+.buscador {
+    margin: 1.5rem 1rem 1.5rem 1rem;
+    }
+}
