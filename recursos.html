@@ -76,22 +76,27 @@
         return cardImage;
     }
 
-    // Función para crear el cuerpo de la tarjeta
     function createCardBody(title, description) {
-        const cardBody = document.createElement('div');
-        cardBody.className = 'card-body';
-        const cardTitle = document.createElement('h2');
-        cardTitle.className = 'recurso';
-        cardTitle.textContent = title;
-        const cardDescription = document.createElement('p');
-        cardDescription.className = 'descripcion';
-        cardDescription.textContent = description;
-        cardBody.appendChild(cardTitle);
-        cardBody.appendChild(cardDescription);
-        return cardBody;
-    }
-
-    let allResources = [];
+    const cardBody = document.createElement('div');
+    cardBody.className = 'card-body';
+    const cardTitle = document.createElement('h2');
+    cardTitle.className = 'recurso';
+    cardTitle.textContent = title;
+    
+    const cardDescription = document.createElement('div'); 
+    cardDescription.className = 'descripcion';
+        const descriptionLines = description.split('\n');
+    descriptionLines.forEach((line, index) => {
+        cardDescription.appendChild(document.createTextNode(line));
+        if(index < descriptionLines.length - 1) {
+            cardDescription.appendChild(document.createElement('br'));
+        }
+    });
+    
+    cardBody.appendChild(cardTitle);
+    cardBody.appendChild(cardDescription);
+    return cardBody;
+}
 
     function fetchGoogleSheetResources() {
         const sheetRange = 'Recursos!A2:E';
