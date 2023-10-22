@@ -32,6 +32,17 @@
             <h2 class="suscribirse">SUSCRIBETE</h2>
         </a>
     </div>
+    <div class="filter-buttons">
+        <button onclick="filterEvents('todos')" class="botonesfiltro">TODOS</button>
+        <button onclick="filterEvents('cineytv')" class="botonesfiltro">CINEYTV</button>
+        <button onclick="filterEvents('curiosidades')" class="botonesfiltro">CURIOSIDADES</button>
+        <button onclick="filterEvents('deportes')" class="botonesfiltro">DEPORTES</button>
+        <button onclick="filterEvents('festividades')" class="botonesfiltro">FESTIVIDADES</button>
+        <button onclick="filterEvents('tecnologia')" class="botonesfiltro">TECNOLOGIA</button>
+        <button onclick="filterEvents('videojuegos')" class="botonesfiltro">VIDEOJUEGOS</button>
+        <input type="text" id="searchInput" class="buscador" oninput="searchResources()" placeholder="Buscar eventos...">
+    </div>
+    
     <div id="events" class="row"></div>
     <footer>2023 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
             style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
@@ -159,7 +170,7 @@ END:VCALENDAR`;
 };
 const fetchGoogleSheetEvents = () => {
     const now = moment.tz("America/New_York").startOf('day').toDate();
-    const sheetRange = 'Eventos!A2:D';
+    const sheetRange = 'Eventos!A2:F';
     const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${sheetRange}?key=${API_KEY}`;
     
     fetch(sheetUrl)
@@ -168,21 +179,56 @@ const fetchGoogleSheetEvents = () => {
             const rows = data.values || [];
             const events = rows
                 .map(row => {
-                    const [titulo, dateString, descripcion, imageFilename] = row;
+                    const [titulo, dateString, descripcion, imageFilename, categoriaRaw] = row;
+                    const categoria = categoriaRaw.toLowerCase();
                     const eventDate = new Date(dateString);
                     return !isNaN(eventDate) && eventDate >= now 
-                        ? { titulo, eventDate, descripcion, imagen: imageFilename ? `eventos/${imageFilename}` : placeholderimagen }
+                        ? { titulo, eventDate, descripcion, imagen: imageFilename ? `eventos/${imageFilename}` : placeholderimagen, categoria }
                         : null;
                 })
                 .filter(Boolean)
                 .sort((a, b) => a.eventDate - b.eventDate);
                 
-            events.forEach(event => {
-                eventsContainer.appendChild(createEventCard(event));
-            });
+                allEvents = events; 
+            displayEvents(events); 
         })
         .catch(error => console.error('Error:', error));
 };
 
-    fetchGoogleSheetEvents();
+function displayEvents(events) {
+    eventsContainer.innerHTML = '';
+    events.forEach(event => {
+        eventsContainer.appendChild(createEventCard(event));
+    });
+}
+
+function filterEvents(categoria) {
+    document.querySelectorAll('.botonesfiltro').forEach(button => {
+        button.classList.add('inactive');
+    });
+
+    if (categoria === 'todos') {
+        document.querySelectorAll('.botonesfiltro').forEach(button => {
+            button.classList.remove('inactive');
+        });
+        displayEvents(allEvents);
+    } else {
+        document.querySelector(`.botonesfiltro[onclick="filterEvents('${categoria}')"]`).classList.remove('inactive');
+        const filteredEvents = allEvents.filter(event => event.categoria.toLowerCase() === categoria);
+        displayEvents(filteredEvents);
+    }
+}
+
+function searchResources() {
+    const searchString = document.getElementById('searchInput').value.toLowerCase();
+
+    const filteredEvents = allEvents.filter(event => 
+        event.titulo.toLowerCase().includes(searchString) ||
+        event.descripcion.toLowerCase().includes(searchString)
+    );
+
+    displayEvents(filteredEvents);
+}
+
+fetchGoogleSheetEvents();
 </script>
