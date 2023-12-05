@@ -30,13 +30,32 @@
     <div class="content">
         {% assign previous_month = nil %}
         {% for post in site.posts %}
-            {% assign current_month = post.date | date: "%B %Y" | translate_month %}
-            {% if current_month != previous_month %}
-                <h2>{{ current_month }}</h2>
-                {% assign previous_month = current_month %}
+            {% capture current_month %}{{ post.date | date: "%B" }}{% endcapture %}
+            {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        
+            {% case current_month %}
+                {% when 'January' %}{% assign current_month = 'Enero' %}
+                {% when 'February' %}{% assign current_month = 'Febrero' %}
+                {% when 'March' %}{% assign current_month = 'Marzo' %}
+                {% when 'April' %}{% assign current_month = 'Abril' %}
+                {% when 'May' %}{% assign current_month = 'Mayo' %}
+                {% when 'June' %}{% assign current_month = 'Junio' %}
+                {% when 'July' %}{% assign current_month = 'Julio' %}
+                {% when 'August' %}{% assign current_month = 'Agosto' %}
+                {% when 'September' %}{% assign current_month = 'Septiembre' %}
+                {% when 'October' %}{% assign current_month = 'Octubre' %}
+                {% when 'November' %}{% assign current_month = 'Noviembre' %}
+                {% when 'December' %}{% assign current_month = 'Diciembre' %}
+            {% endcase %}
+        
+            {% capture month_and_year %}{{ current_month }} {{ current_year }}{% endcapture %}
+            {% if month_and_year != previous_month %}
+                <h2>{{ month_and_year }}</h2>
+                {% assign previous_month = month_and_year %}
             {% endif %}
+            
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        {% endfor %}
+        {% endfor %}        
     </div>
 
 
