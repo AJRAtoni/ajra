@@ -28,15 +28,15 @@
             <img src="{{ 'images/blog.webp' | relative_url }}" class="post-image">
     </div>
     <div class="content">
-            {% assign previous_month = nil %}
-            {% for post in site.posts %}
-                {% assign current_month = post.date | date: "%B %Y" %}
-                {% if current_month != previous_month %}
-                    <h2>{{ current_month }}</h2>
-                    {% assign previous_month = current_month %}
-                {% endif %}
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            {% endfor %}
+        {% assign previous_month = nil %}
+        {% for post in site.posts %}
+            {% assign current_month = post.date | date: "%B %Y" | translate_month %}
+            {% if current_month != previous_month %}
+                <h2>{{ current_month }}</h2>
+                {% assign previous_month = current_month %}
+            {% endif %}
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {% endfor %}
     </div>
 
 
@@ -47,3 +47,6 @@
 </body>
 
 </html>
+<style>
+    a {text-decoration: none !important;}
+</style>
