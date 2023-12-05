@@ -25,12 +25,7 @@
         </a>
     </header>
     <div class="post-cabecera">
-        <h1 class="post-title">Blog</h1>
-        {% if page.image %}
-            <img src="{{ page.image | relative_url }}"  class="post-image">
-        {% else %}
-            <img src="{{ 'images/placeholder.webp' | relative_url }}" class="post-image">
-        {% endif %}
+            <img src="{{ 'images/blog.webp' | relative_url }}" class="post-image">
     </div>
     <div class="content">
             {% assign previous_month = nil %}
