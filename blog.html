@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f0f0f0">
+    <title>Blog</title>
+    <link rel="icon" type="image/x-icon" href="{{ 'images/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ 'images/AJRA.png' | relative_url }}">
+    <meta name="description" content="{{ page.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description | default: page.title }}">
+    <meta property="og:image" content="{{ site.url | append: 'images/AJRA.png' | absolute_url }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <link href="{{ 'css/posts.css' | relative_url }}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <a href="{{ site.url | relative_url }}">
+            <img src="{{ 'images/AJRA.png' | relative_url }}" alt="AJRA" class="avatar">
+        </a>
+    </header>
+    <div class="post-cabecera">
+        <h1 class="post-title">Blog</h1>
+        {% if page.image %}
+            <img src="{{ page.image | relative_url }}"  class="post-image">
+        {% else %}
+            <img src="{{ 'images/placeholder.webp' | relative_url }}" class="post-image">
+        {% endif %}
+    </div>
+    <div class="content">
+            {% assign previous_month = nil %}
+            {% for post in site.posts %}
+                {% assign current_month = post.date | date: "%B %Y" %}
+                {% if current_month != previous_month %}
+                    <h2>{{ current_month }}</h2>
+                    {% assign previous_month = current_month %}
+                {% endif %}
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            {% endfor %}
+    </div>
+
+
+    <footer>
+        2023 &copy; Desarrollado con 🧠 & 💛 por 
+        <a href="https://ajra.es" style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a>
+    </footer>
+</body>
+
+</html>
