@@ -337,7 +337,7 @@ a {
 
 .trabajo2 {
     grid-area: trabajo2;
-    background-image: url('./images/trabajo2.webp');
+    background-image: url('../images/trabajo2.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -345,7 +345,7 @@ a {
 
 .trabajo3 {
     grid-area: trabajo3;
-    background-image: url('./images/trabajo3.webp');
+    background-image: url('../images/trabajo3.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -353,7 +353,7 @@ a {
 
 .trabajo4 {
     grid-area: trabajo4;
-    background-image: url('./images/trabajo4.webp');
+    background-image: url('../images/trabajo4.webp');
     aspect-ratio: auto;
     background-size: cover;
     background-repeat: no-repeat;
@@ -362,7 +362,7 @@ a {
 
 .trabajo5 {
     grid-area: trabajo5;
-    background-image: url('./images/trabajo5.webp');
+    background-image: url('../images/trabajo5.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -370,7 +370,7 @@ a {
 
 .trabajo6 {
     grid-area: trabajo6;
-    background-image: url('./images/trabajo6.webp');
+    background-image: url('../images/trabajo6.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -522,7 +522,7 @@ a {
 
 .cosa1 {
     grid-area: cosa1;
-    background-image: url('images/mapa.webp');
+    background-image: url('../images/mapa.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
