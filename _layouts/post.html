@@ -13,7 +13,7 @@
     <meta property="og:description" content="{{ page.description | default: page.title }}">
     <meta property="og:image" content="{{ site.url | append: 'images/AJRA.png' | absolute_url }}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <link href="{{ 'style.css' | relative_url }}" rel="stylesheet" type="text/css" />
+    <link href="{{ 'posts.css' | relative_url }}" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -23,6 +23,8 @@
         </a>
     </header>
     <div class="content">
+        <h1>{{ page.title }}</h1>
+        <hr>
         {{ content }}        
     </div>
 
