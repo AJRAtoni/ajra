@@ -3,6 +3,8 @@ description: Web Developer & Data Analyst
 url: "https://ajra.es" 
 baseurl: "" 
 
+permalink: /blog/:title/
+
 author:
   name: AJRA
 
