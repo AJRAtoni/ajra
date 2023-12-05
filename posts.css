@@ -5,10 +5,14 @@
     border-radius: 50%;
     transition: transform 0.5s ease-in-out;
     }
-
+.post-cabecera {
+    max-width: 850px;
+    margin: auto;
+}
 .content {
     max-width: 650px;
     margin: auto;
+    padding-bottom: 3rem;
 }
 
 .post-title {

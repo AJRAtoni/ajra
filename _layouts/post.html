@@ -22,10 +22,16 @@
             <img src="{{ 'images/AJRA.png' | relative_url }}" alt="AJRA" class="avatar">
         </a>
     </header>
-    <div class="content">
+    <div class="post-cabecera">
         <h1 class="post-title">{{ page.title }}</h1>
-        <hr>
-        {{ content }}        
+        {% if page.image %}
+            <img src="{{ page.image | relative_url }}"  class="post-image">
+        {% else %}
+            <img src="{{ 'path/to/placeholder-image.jpg' | relative_url }}" class="post-image">
+        {% endif %}
+    </div>
+    <div class="content">
+        {{ content }}
     </div>
 
 
