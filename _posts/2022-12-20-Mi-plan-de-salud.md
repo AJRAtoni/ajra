@@ -2,7 +2,6 @@
 layout: post
 title: Mi plan de salud para 2023 
 description: Hoy quiero contarte un poco sobre mi estado de salud y algunas aplicaciones y gadgets que me están ayudando a llevar un mejor control de mi dieta, ejercicio y sueño.
-image: ../images/AJRA.png
 ---
 
 
