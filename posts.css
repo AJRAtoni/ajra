@@ -6,14 +6,40 @@
     transition: transform 0.5s ease-in-out;
     }
 
-    
 .content {
-    max-width: 700px;
+    max-width: 650px;
     margin: auto;
 }
+
+.post-title {
+    font-size: 3rem;
+    line-height: 1.07143;
+    font-weight: 700;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+
+p {font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 1.4211em;
+}
+
+
+
 @media (max-width: 768px) {
     .content {
         width: 100%;
         margin: 0 2rem;
+    }
+    .post-title {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 700;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     }
 }
