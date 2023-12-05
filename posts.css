@@ -42,9 +42,9 @@ footer {
 
 
 @media (max-width: 768px) {
-    .content {
-        width: 100%;
-        margin: 0 2rem;
+    .post-cabecera {
+        max-width: 100%;
+        margin: 0 1.5rem;
     }
     .post-title {
         font-size: 32px;
@@ -52,6 +52,9 @@ footer {
         font-weight: 700;
         letter-spacing: .004em;
         font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+    .content {
+        margin: 0 2rem;
     }
     p {
         margin-left: auto;
