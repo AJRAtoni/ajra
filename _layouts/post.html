@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f0f0f0">
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/AJRA.png">
+    <meta name="description" content="{{ page.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description | default: page.title }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.image | default: '/path/to/default/image.jpg' }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <a href="https://ajra.es">
+            <img src="img/AJRA.webp" alt="AJRA" class="avatar">
+        </a>
+    </header>
+    <div class="content">
+        {{ content }}        
+    </div>
+
+
+    <footer>2023 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
+            style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
+</body>
+
+</html>
