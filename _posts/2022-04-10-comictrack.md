@@ -1,11 +1,9 @@
 ---
-title: ComicTrack — AJRA
+layout: post
+title: ComicTrack
 description: ComicTrack, una App que nos permite hacer un seguimiento de los cómics que vamos leyendo.
+image: https://cdn-images-1.medium.com/max/800/0*U36P1-fon7wBc9nc.png
 ---
-
-# ComicTrack — AJRA
-
-![ComicTrack](https://cdn-images-1.medium.com/max/800/0*U36P1-fon7wBc9nc.png)
 
 Los que me conocéis sabéis cuanto me gusta leer cómics, recuerdo que a finales de los 90 llegue a tener una colección de varios miles de cómics que almacenaba y catalogaba en cajas.
 

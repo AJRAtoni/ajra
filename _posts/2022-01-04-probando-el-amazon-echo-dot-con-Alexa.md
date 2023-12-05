@@ -1,11 +1,9 @@
 ---
+layout: post
 title: Probando el Amazon Echo Dot con Alexa
 description: Este año Santa Claus me ha traído un Amazon Echo Dot.
+image: https://cdn-images-1.medium.com/max/800/1*R0DUHMfQsAHbOJHcKkxboQ.jpeg
 ---
-
-# Probando el Amazon Echo Dot con Alexa
-
-![Amazon Echo Dot](https://cdn-images-1.medium.com/max/800/1*R0DUHMfQsAHbOJHcKkxboQ.jpeg)
 
 Este año Santa Claus me ha traído un **Amazon Echo Dot**.
 

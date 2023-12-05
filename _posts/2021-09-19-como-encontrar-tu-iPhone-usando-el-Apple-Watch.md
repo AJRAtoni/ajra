@@ -1,11 +1,8 @@
 ---
+layout: post
 title: "Como encontrar tu iPhone usando el Apple Watch."
 description: "Guía práctica para localizar tu iPhone con la ayuda de un Apple Watch."
 ---
-
-# Como encontrar tu iPhone usando el Apple Watch.
-
-![imagen](https://cdn-images-1.medium.com/max/800/0*AsEksmdI-pQM5ZJf.jpg)
 
 No suelo perder mi iPhone, nunca me alejo mucho de el 😅, pero alguna vez se queda entre los cojines del sofá, o te lo olvidas en el baño, o en la cocina mientras preparas la cena y luego no sabes donde lo dejaste.
 

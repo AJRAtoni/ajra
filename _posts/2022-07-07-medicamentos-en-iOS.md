@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Medicamentos en iOS 16"
+image: https://cdn-images-1.medium.com/max/800/1*k8pyMiQyIbdFBmwNle2BpQ.jpeg
 ---
-
-# Medicamentos en iOS 16
-
-![Medicamentos en iOS 16](https://cdn-images-1.medium.com/max/800/1*k8pyMiQyIbdFBmwNle2BpQ.jpeg)
 
 Apple ha incorporado una nueva funcionalidad en iOS 16, dentro de la app Salud tenemos la opción “Medicamentos”. Esta nueva característica de Medicamentos nos ayudará a mantener un orden y control en los medicamentos que tomas periódicamente. Podremos añadir nuestros medicamentos y establecer recordatorios para tomarlos, así como ver recomendaciones y contraindicaciones. Además, podremos exportar y compartir esta información con nuestro médico.
 

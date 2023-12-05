@@ -1,9 +1,9 @@
 ---
+layout: post
 title: ¿Como funciona el Email Marketing?
 description: Las bases y fundamentos del Email Marketing.
+image: https://cdn-images-1.medium.com/max/800/1*dh0ZZ177MAC9uj6rKC3OSw.png
 ---
-
-# ¿Como funciona el Email Marketing?
 
 El Email Marketing puede parecer algo complicado y complejo, hay muchas cosas a tener en cuenta y muchos factores que pueden hacer que nuestra campaña de e-mailing salga bien o mal.
 

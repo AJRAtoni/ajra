@@ -3,8 +3,6 @@ layout: post
 title: El resurgimiento del mailto
 ---
 
-# El resurgimiento del mailto
-
 Llevo casi veinte años haciendo páginas webs, y cuando empecé en esto, los enlaces `mailto:` eran el método de contacto más típico que podíamos encontrar en una web.
 
 ## ¿Qué es el `mailto`?

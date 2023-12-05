@@ -2,11 +2,8 @@
 layout: post
 title: Mi equipo de trabajo para 2023
 description: Este es el equipo de trabajo con el que comienzo el 2023.
+image: https://cdn-images-1.medium.com/max/800/1*PEd03-O_DaEyWvn1ogLXNQ.jpeg
 ---
-
-# Mi equipo de trabajo para 2023
-
-![Imagen del equipo de trabajo](https://cdn-images-1.medium.com/max/800/1*PEd03-O_DaEyWvn1ogLXNQ.jpeg)
 
 En el año 2023, sigo trabajando para ser un profesional en el campo de la tecnología y la informática, lo que significa que tengo que estar al tanto de las últimas tendencias y tecnologías para poder seguir desempeñando mi trabajo de la mejor manera. El equipamiento con el que empezaré el 2023 es muy diferente al equipamiento con el que empecé el 2022.
 

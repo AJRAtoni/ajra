@@ -1,9 +1,8 @@
 ---
+layout: post
 title: ¿Qué es un "Call to Action"?
 description: Vamos a ver que es eso de un Call to Action.
 ---
-
-# ¿Qué es un "Call to Action"?
 
 La idea es que mediante un botón, palabra o frase el usuario acabe realizando nuestro objetivo, ya sea hacer click en un botón, banner, rellenar un formulario de contacto, suscribirse a un newsletter, etc...
 

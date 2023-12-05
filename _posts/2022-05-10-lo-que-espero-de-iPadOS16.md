@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Lo que espero de iPadOS 16"
+image: https://cdn-images-1.medium.com/max/800/1*fNk7xLliPRyhkoW32MfzRg.jpeg
 ---
-
-# Lo que espero de iPadOS 16
-
-![Lo que espero de iPadOS 16](https://cdn-images-1.medium.com/max/800/1*fNk7xLliPRyhkoW32MfzRg.jpeg)
 
 Quedan solo 2 semanas para que dé comienzo la WWDC 2022 y se presente los nuevos iOS & iPadOS.
 

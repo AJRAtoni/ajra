@@ -1,9 +1,8 @@
 ---
+layout: post
 title: ¿Qué es el Copywriting?
 description: ¿Sabes lo que es el Copywriting?.
 ---
-
-# ¿Qué es el Copywriting?
 
 Continuamos hablando de Marketing Digital, hoy te explico brevemente lo que es el **copywriting**.
 

@@ -1,9 +1,9 @@
 ---
+layout: post
 title: ¿Qué es una Landing Page?
 description: Explicacion basica de que es una Landing Page.
+image: https://cdn-images-1.medium.com/max/800/1*DLTt2kgCHsetdP2xebFOMw.jpeg
 ---
-
-# ¿Qué es una Landing Page?
 
 En el artículo de hoy, volvemos a hablar de un término relacionado con el Marketing Digital.
 

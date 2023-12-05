@@ -1,9 +1,9 @@
 ---
+layout: post
 title: "¿Necesita mi empresa una pagina web?"
 description: "Exploración de la importancia de tener una página web para las empresas en la era digital."
+image: https://cdn-images-1.medium.com/max/800/1*ywR4MeNw9yMMuI8ITDBq3Q.jpeg
 ---
-
-# ¿Necesita mi empresa una pagina web?
 
 Parece un poco extraño, pero todavía hay empresas que a día de hoy nos hacen esta pregunta.
 
