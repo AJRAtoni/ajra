@@ -1,3 +1,8 @@
+body {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 10px;
+}
+
 .avatar {
     max-width: 75px;
     height: auto;
@@ -25,6 +30,7 @@
 .post-image {
     width: 100%;
     border-radius: 15px;
+    margin-bottom: 1.5rem;
 }
 p {
     font-size: 19px;
@@ -43,6 +49,13 @@ footer {
 
 
 @media (max-width: 768px) {
+    .avatar {
+        max-width: 75px;
+        height: auto;
+        padding: 2rem 0;
+        border-radius: 50%;
+        transition: transform 0.5s ease-in-out;
+    }
     .post-cabecera {
         max-width: 100%;
     }
@@ -50,6 +63,7 @@ footer {
         font-size: 32px;
         line-height: 1.125;
         letter-spacing: .004em;
+        margin: 1.5rem;
     }
     .content {
         margin: 0 2rem;
