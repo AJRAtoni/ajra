@@ -7,7 +7,6 @@ author:
   name: AJRA
 
 markdown: kramdown
-theme: AJRA
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
