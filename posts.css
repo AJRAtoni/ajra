@@ -1,0 +1,19 @@
+.avatar {
+    max-width: 75px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+    }
+
+    
+.content {
+    max-width: 700px;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+        margin: 0 2rem;
+    }
+}
