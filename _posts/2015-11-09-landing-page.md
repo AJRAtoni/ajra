@@ -7,8 +7,6 @@ image: https://cdn-images-1.medium.com/max/800/1*DLTt2kgCHsetdP2xebFOMw.jpeg
 
 En el artículo de hoy, volvemos a hablar de un término relacionado con el Marketing Digital.
 
-![Imagen](https://cdn-images-1.medium.com/max/800/1*DLTt2kgCHsetdP2xebFOMw.jpeg)
-
 ## HOY OS EXPLICAMOS QUE ES UNA LANDING PAGE
 
 Una **Landing Page** es una de las mejores herramientas con las que cuenta una página web a la hora de conseguir conversiones.
