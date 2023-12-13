@@ -2,6 +2,8 @@ body {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin: 10px;
 }
+a {color: #aa33cc;}
+a:hover {color: #0d6efd;}
 
 .avatar {
     max-width: 75px;
