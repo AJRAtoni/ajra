@@ -19,7 +19,7 @@ a:hover {color: #0d6efd;}
 .content {
     max-width: 650px;
     margin: auto;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 .post-title {
     font-size: 3rem;
@@ -42,7 +42,8 @@ p {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin-bottom: 1.4211em;
 }
-img {width: 100%;}
+img {max-width: 100%;}
+hr {margin: 4rem 0;}
 footer {
     text-align: center;
     font-size: 13px;
