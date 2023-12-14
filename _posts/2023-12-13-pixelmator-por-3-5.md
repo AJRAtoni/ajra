@@ -2,7 +2,7 @@
 layout: post
 title: Pixelmator Pro se actualiza a la version 3.5
 description: Descubre cómo Pixelmator Pro se ha convertido en la mejor alternativa a Photoshop en Mac para la edición de fotos y videos HDR.
-imagen: https://ajra.es/images/posts/pixelmatorpro-3-5.webp
+image: https://ajra.es/images/posts/pixelmatorpro-3-5.webp
 ---
 
 Si eres un apasionado de la fotografía y la edición de videos en tu Mac, seguramente ya conoces Pixelmator Pro, la destacada alternativa a Photoshop diseñada específicamente para usuarios de macOS. 
