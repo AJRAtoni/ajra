@@ -4,7 +4,6 @@ title: ¿Qué es el “Google Mobile Friendly”?
 description: Hoy quiero hablaros de un tema importante para vuestras webs, y es algo que muchos clientes han estado preguntando estos días.
 image: https://cdn-images-1.medium.com/max/800/1*io5eeSujbtAKTpqODwCi3g.jpeg
 slug: ¿que-es-el-“google-mobile-friendly”
-preview: /images/posts/EquipoTrabajo2024.webp
 ---
 
 ## ¿Qué es el “Google Mobile Friendly”?
