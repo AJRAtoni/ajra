@@ -7,26 +7,27 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "Title",
+          "title": "Titulo",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "Description",
+          "title": "Descripción",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "Publishing date",
+          "title": "Fecha",
           "name": "date",
           "type": "datetime",
           "default": "{{now}}",
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
+          "title": "Imagen Destacada",
           "name": "image",
-          "type": "image"
+          "type": "image", 
+          "isPreviewImage": true
         },
         {
           "title": "Is in draft",
@@ -55,9 +56,9 @@
       "path": "[[workspace]]/_posts"
     },
     {
-      "title": "image",
-      "path": "[[workspace]]/images/posts/"
-    },
+      "title": "templates",
+      "path": "[[workspace]]/.frontmatter/templates"
+    }
   ],
   "frontMatter.git.enabled": true
 }
