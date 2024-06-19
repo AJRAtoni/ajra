@@ -6,10 +6,6 @@ slug: compras-millonarias
 date: 2017-09-22T04:06:49.000Z
 ---
 
-### Compras Millonarias
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*oSdmzVGIiqHlAJbgmNGROw.jpeg)
-
 En este mundillo tecnológico está a la orden del día ver que una empresa compra otra por cifras desorbitadas.
 
 He decidido crear este listado en el que os mantendremos al día de las mayores y más importantes compras en el mundo de las empresas tecnológicas.

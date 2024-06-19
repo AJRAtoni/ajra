@@ -6,10 +6,6 @@ slug: whatsapp-para-ios-se-actualiza
 date: 2018-09-05T20:09:08.000Z
 ---
 
-### WhatsApp para iOS se actualiza
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*f4_jCfctxQhHnCV0LR3ubg.jpeg)
-
 La version de WhatsApp para iPhone se ha actualizado incorporando una serie de pequeñas pero interesantes novedades.
 
 La mas destacada es la posibilidad de previsualizar desde las notificaciones, las imágenes, gifs o videos que nos envíen.

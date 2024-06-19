@@ -6,9 +6,6 @@ slug: snap-inc-despide-al-10-de-sus-ingenieros
 date: 2018-03-09T05:00:00.000Z
 ---
 
-### Snap Inc. despide al 10% de sus ingenieros
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*71SMclSS1uaourdENtt1Bg.jpeg)
 
 Snap ha confirmado que Evan Spiegel ha tomado la difícil decisión de despedir al 10% de sus ingenieros, unos 120 empleados.
 

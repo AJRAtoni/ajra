@@ -6,10 +6,6 @@ slug: google-anuncia-el-cierre-de-inbox
 date: 2018-09-13T21:04:56.000Z
 ---
 
-### Google anuncia el cierre de “Inbox”
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*GtQHDfD_ak9p-dYTFRo7tw.jpeg)
-
 Google ha anunciado que la aplicación **Inbox** dejara de funcionar a partir de marzo de 2019.
 
 Google presento Inbox en octubre de 2014, una aplicación de correo electrónico diferente, diseñada para enfocarse en lo realmente importante y que se encargaba de organizarnos automáticamente el correo.

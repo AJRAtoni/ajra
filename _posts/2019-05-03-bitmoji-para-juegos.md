@@ -6,9 +6,6 @@ slug: bitmoji-para-juegos
 date: 2019-05-03T20:21:14.000Z
 ---
 
-### Bitmoji para juegos
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*3vSTlS65mZM7OT-2)
 
 Seguro que ya conocéis Bitmoji, la aplicación que compro Snapchat y que permite crear un avatar virtual que luego puedes utilizar dentro de su app o puedes compartir mediante stickers en servicios de mensajería, pues ahora han anunciado que van un paso mas allá.
 

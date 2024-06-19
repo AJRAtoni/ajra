@@ -6,10 +6,6 @@ slug: files-go-libera-espacio-en-tu-android-de-la-mano-de-google
 date: 2018-02-15T21:23:00.000Z
 ---
 
-### Files Go — Libera espacio en tu Android de la mano de Google
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*GKPLjB_-1IFRIQ7MDCTV-g.jpeg)
-
 El principal problema en todo dispositivo móvil es (además de la batería) el espacio en memoria.
 
 Cada día recibimos decenas de imágenes, vídeos y documentos, en muchas ocasiones no nos damos cuenta y esos archivos (de poco interés) se van acumulando y acaban llenando la memoria de nuestro dispositivo.

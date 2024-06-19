@@ -6,10 +6,6 @@ slug: instagram-te-permitira-descargar-todos-tus-datos
 date: 2018-04-14T05:21:24.000Z
 ---
 
-### Instagram te permitirá descargar todos tus datos
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*nDVlnPUxSiDSji44RizyvQ.jpeg)
-
 El próximo 25 de mayo entra en vigor la nueva Ley de Protección de Datos Europea, la conocida como GDPR.
 
 **Instagram** lo sabe, y con todos los problemas de privacidad que ya tiene su empresa matriz (**Facebook**) y **Mark Zuckerberg** teniendo que ir a declarar frente al Senado de Estados Unidos, no quieren verse envueltos en más problemas.

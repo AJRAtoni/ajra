@@ -6,10 +6,6 @@ slug: namechk-esta-tu-nombre-de-usuario-o-dominio-disponible-en-internet
 date: 2019-11-07T22:30:00.000Z
 ---
 
-### Namechk: ¿esta tu nombre de usuario o dominio disponible en internet?
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*PiuW0iUJe47vaS6NmAqKNw.png)
-
 Hoy os traigo una interesante herramienta para todos los que están pensando en crear su negocio y necesitan registrar su nombre en redes sociales y dominios web.
 
 Hoy en día hay cientos de redes sociales y de extensiones web, así que ir probando la disponibilidad de un nombre en cada una de ellas puede ser algo tedioso.  

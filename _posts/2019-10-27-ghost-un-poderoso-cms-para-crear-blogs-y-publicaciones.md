@@ -6,12 +6,9 @@ slug: ghost-un-poderoso-cms-para-crear-blogs-y-publicaciones
 date: 2019-10-27T19:54:55.000Z
 ---
 
-### GHOST: Un poderoso CMS para crear blogs y publicaciones
-
 Ghost es un CMS basado en Node.js y es perfecto para crear blogs o publicaciones online.  
 Destaca por su sencillez, por ser código abierto y sobretodo por la velocidad de carga que ofrece.
 
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*Ou-BttKi4bGjcBpEJIJLuA.png)
 
 ### UN CONJUNTO DE HERRAMIENTAS DE PUBLICACION MODERNAS
 

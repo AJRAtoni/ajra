@@ -6,9 +6,6 @@ slug: cual-es-la-mejor-hora-para-publicar-en-redes-sociales
 date: 2017-03-17T03:44:48.000Z
 ---
 
-### ¿Cuál es la mejor hora para publicar en redes sociales?
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*69hfeICeywRt7DIJegeHHw.jpeg)
 
 Son muchos los clientes que nos preguntan ¿Cuál es la mejor hora para publicar en redes sociales?. La respuesta a esa pregunta (y a todo lo relacionado con el social media marketing) es DEPENDE.
 

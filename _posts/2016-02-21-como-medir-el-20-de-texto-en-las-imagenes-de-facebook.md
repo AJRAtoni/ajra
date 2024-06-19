@@ -8,8 +8,6 @@ date: 2016-02-21T18:14:22.000Z
 
 Quizás no lo sabíais pero Facebook no permite promocionar publicaciones que contengan más de un 20% de texto en sus imágenes. Según ellos porque un exceso de texto puede parecer spam y hacer creer a las personas que tu anuncio es de baja calidad. Personalmente esta normativa nunca nos había afectado demasiado, nuestras imágenes nunca llevan demasiado texto y lo hacíamos todo a la vieja usanza… a ojo.
 
-![Imagen de ejemplo](https://cdn-images-1.medium.com/max/800/0*h5168VHeDBBzwgqX)
-
 Pero hace un tiempo nuestro buen amigo [Jose Ibora](https://www.facebook.com/jose.ibora) nos preguntaba si había algún modo de saber si tu imagen cumple con la regla del 20% de texto de Facebook. Estaba intentando promocionar una publicación que incluía un flyer de una discoteca, pero Facebook le devolvía un mensaje de error debido a la famosa norma del 20% y quería saber cuánto texto tenía que quitar para que Facebook la aceptara.
 
 Así que nos pusimos a buscar una herramienta que nos ayudara en este tema y aquí os la dejamos para que todos podáis disfrutar de ella, se trata de [Text Overlay](https://www.facebook.com/ads/tools/text_overlay).

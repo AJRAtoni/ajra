@@ -6,9 +6,6 @@ slug: gutenberg-el-nuevo-editor-de-wordpress
 date: 2018-08-18T03:17:44.000Z
 ---
 
-### GUTENBERG — EL NUEVO EDITOR DE WORDPRESS
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*xtXSBXRU-3mLtJ972yXztA.jpeg)
 
 WordPress se ha actualizado a la version 4.9.8 y con esta nueva actualización se incorpora un mensaje de aviso para que probemos Gutenberg.
 

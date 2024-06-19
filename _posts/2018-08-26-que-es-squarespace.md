@@ -6,10 +6,6 @@ slug: que-es-squarespace
 date: 2018-08-26T21:49:07.000Z
 ---
 
-### ¿Qué es Squarespace?
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*9zxZGoj73zhnQARHgMeBFg.jpeg)
-
 Squarespace es una compañía norteamericana que ofrece un servicio integral de creación y gestión de páginas webs.
 
 En términos técnicos Squarespace es un CMS (Sistema de Gestión de Contenidos), al igual que WordPress, Blogger, Drupal, etc…

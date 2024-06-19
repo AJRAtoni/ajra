@@ -6,10 +6,6 @@ slug: universal-paperclips
 date: 2018-02-20T01:16:00.000Z
 ---
 
-### Universal Paperclips
-
-![Imagen de Universal Paperclips](https://cdn-images-1.medium.com/max/800/1*SqlOARqlZWmjh2i8hmJ4ow.jpeg)
-
 Hoy os recomendamos un juego para navegador y dispositivos móviles.  
 Pero no es un juego cualquiera, se trata de un juego muy peculiar y adictivo.
 

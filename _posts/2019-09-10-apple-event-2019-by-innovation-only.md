@@ -6,9 +6,6 @@ slug: apple-event-2019-by-innovation-only
 date: 2019-09-10T14:03:25.000Z
 ---
 
-### Apple Event 2019 — By Innovation Only
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*jiQZHoxHSidK6X-t.jpeg)
 
 Hoy, como es costumbre por estas fechas, ha tenido lugar la Keynote de Apple en la que presentan los nuevos iPhone.
 

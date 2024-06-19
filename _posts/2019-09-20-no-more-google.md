@@ -6,9 +6,6 @@ slug: no-more-google
 date: 2019-09-20T17:47:32.000Z
 ---
 
-### No More Google
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*0p21jNeZAG_R7p09.png)
 
 Desde hace un tiempo nos estamos concienciando un poco más sobre la importancia de nuestra privacidad.
 

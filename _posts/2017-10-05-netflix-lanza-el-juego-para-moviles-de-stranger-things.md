@@ -6,10 +6,6 @@ slug: netflix-lanza-el-juego-para-moviles-de-stranger-things
 date: 2017-10-05T17:29:20.000Z
 ---
 
-### Netflix lanza el juego para móviles de Stranger Things
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*3pFTh9VYtusfwxicwIjlVA.jpeg)
-
 Netflix acaba de lanzar un juego para móviles basado en su serie **Stranger Things**.
 
 Se trata de un juego que nos recordará a los clásicos RPG de la SNES, tendremos hasta siete personajes seleccionables con diferentes cualidades.

@@ -6,9 +6,6 @@ slug: pornhub-quiere-comprar-tumblr
 date: 2019-05-03T21:05:46.000Z
 ---
 
-### Pornhub quiere comprar Tumblr
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*RXBATdiCxWirezj5)
 
 En 2015 Verizon pago $4.800 millones a Yahoo para hacerse con Tumblr.
 

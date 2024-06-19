@@ -6,9 +6,6 @@ slug: amazon-celebra-su-presentacion-anual-de-hardware
 date: 2019-09-25T21:13:20.000Z
 ---
 
-### Amazon celebra su presentación anual de hardware
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*r7TmBLVIeOU1dJOk.png)
 
 Hoy Amazon ha realizado su evento anual de hardware.  
 En esta presentación ha renovado gran parte de su gama de productos.

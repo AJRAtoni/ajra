@@ -6,9 +6,6 @@ slug: squarespace-compra-unfold
 date: 2019-11-01T13:36:23.000Z
 ---
 
-### Squarespace compra Unfold
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*obDyxouXuH8p-NLaTRaIWQ.jpeg)
 
 Durante los últimos dos años, Squarespace nos ha ido sorprendiendo expandiendo sus horizontes más allá del desarrollo web, incorporando también servicios como el email marketing o el [diseño de logotipos](https://ajra.es/squarespace-logo/).
 

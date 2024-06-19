@@ -12,8 +12,6 @@ En esta ocasión vamos con el termino **LEAD**.
 
 ### ¿QUÉ ES UN LEAD?
 
-![Imagen de un LEAD](https://cdn-images-1.medium.com/max/800/0*1FeOy9UbMp97oBTT)
-
 ¿Cuando te hablan de Leads o de cultivo de Leads no te enteras de nada y es como si te hablasen en chino?, tranquilo, un lead simplemente es un usuario que nos ha facilitado sus datos personales.
 
 Normalmente el usuario nos deja sus datos de contacto al rellenar un formulario para consultarnos algo, o para descargarse algún tipo de contenido, por lo cual debemos ofrecer un contenido de interés y original.

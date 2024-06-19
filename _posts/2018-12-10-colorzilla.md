@@ -6,10 +6,6 @@ slug: colorzilla
 date: 2018-12-10T10:38:02.000Z
 ---
 
-### ColorZilla
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*B86bMaol1BJbjajG)
-
 Hoy os recomiendo una herramienta que puede ser útil, se trata de **ColorZilla** una extensión para el navegador (Chrome y Firefox), que servirá de ayuda a los desarrolladores web y diseñadores gráficos.
 
 Al instalar **ColorZilla** en nuestro navegador, tendremos un selector de color, un generador de degradado y muchas herramientas de color avanzadas adicionales.

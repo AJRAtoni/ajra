@@ -6,11 +6,7 @@ slug: que-es-una-landing-page
 date: 2015-11-09T05:30:11.000Z
 ---
 
-### ¿Qué es una Landing Page?
-
 En el artículo de hoy, volvemos a hablar de un término relacionado con el Marketing Digital.
-
-![Imagen de una Landing Page](https://cdn-images-1.medium.com/max/800/1*DLTt2kgCHsetdP2xebFOMw.jpeg)
 
 ### HOY OS EXPLICAMOS QUE ES UNA LANDING PAGE
 

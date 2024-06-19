@@ -6,10 +6,6 @@ slug: twitter-aumenta-el-limite-de-caracteres-a-280
 date: 2017-09-30T04:03:50.000Z
 ---
 
-### Twitter aumenta el límite de caracteres a 280
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*ljyx4Fbve-3X_bjy73Q1Ww.jpeg)
-
 No es ningún secreto que **Twitter** está pasando por un mal momento:
 
 - Su crecimiento no es el deseado.

@@ -6,8 +6,6 @@ slug: apple-lanza-sign-in-with-apple
 date: 2019-06-13T03:39:39.000Z
 ---
 
-### Apple lanza “Sign in with Apple”
-
 La semana pasada se celebró la WWDC 2019 donde Apple presentó cantidad de cosas interesantes, desde iPadOS, iOS 13, macOS Catalina, etc… pero hay algo que fue realmente interesante y sorprendente, el lanzamiento de una nueva API que como suele ser normal con Apple se basa en la seguridad y privacidad del usuario.
 
 Actualmente cuando nos descargamos una app, un juego o queremos crearnos una cuenta en alguna web o red social se nos pide que rellenemos un formulario con nuestros datos. Este es un proceso lento y que a muchos les da pereza y acaban por no crearse una cuenta.

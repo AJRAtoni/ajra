@@ -6,9 +6,6 @@ slug: remove-bg-elimina-el-fondo-de-tus-fotos
 date: 2019-05-14T08:26:14.000Z
 ---
 
-### Remove.bg — elimina el fondo de tus fotos
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*ssB9Gd0OfrD8NxGd)
 
 Hoy quiero recomendaros una aplicación web que seguro os va a gustar.
 

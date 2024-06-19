@@ -8,8 +8,6 @@ date: 2017-07-14T02:15:15.000Z
 
 Esta semana **Microsoft** anunciaba que iba a realizar una reestructuración de la compañía.
 
-![Imagen de Microsoft](https://cdn-images-1.medium.com/max/800/0*nUlNEDxvtenSDBcA.jpg)
-
 Esta reestructuración incluía un recorte de 3.000 puestos de trabajo.
 
 La mayoría de los despidos se realizarán fuera de los Estados Unidos.

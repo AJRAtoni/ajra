@@ -6,8 +6,6 @@ slug: squarespace-logo-ahora-es-gratis
 date: 2019-05-21T08:00:00.000Z
 ---
 
-### “Squarespace logo” ahora es gratis
-
 Hoy Squarespace nos ha sorprendido con una interesante noticia, **Squarespace Logo** pasa a ser gratis para todos los usuarios de su plataforma.
 
 ### ¿Que es Squarespace Logo?

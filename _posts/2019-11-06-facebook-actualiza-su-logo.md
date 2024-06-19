@@ -6,9 +6,6 @@ slug: facebook-actualiza-su-logo
 date: 2019-11-06T14:29:18.000Z
 ---
 
-### FACEBOOK actualiza su logo
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*1wbTAtomQYJQNWgsuvz7KQ.jpeg)
 
 Por segunda vez en su historia FACEBOOK ha cambiado el diseño de su logotipo.
 

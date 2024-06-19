@@ -6,10 +6,6 @@ slug: que-es-trello
 date: 2019-09-13T06:01:04.000Z
 ---
 
-### ¿Que es Trello?
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*ZgM4fnQwXVJSeF0Z.png)
-
 Ya hace tiempo que tenía ganas de hablaros de una de mis herramientas de productividad favoritas, se trata de Trello.
 
 ### ¿Que es Trello?

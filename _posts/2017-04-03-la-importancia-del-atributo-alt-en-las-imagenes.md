@@ -6,9 +6,6 @@ slug: la-importancia-del-atributo-alt-en-las-imagenes
 date: 2017-04-03T03:06:18.000Z
 ---
 
-### La importancia del Atributo Alt en las imágenes
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*yKbyHCpBVDNh21YJmkIctw.jpeg)
 
 En el artículo de hoy vamos a hablar de un tema que está relacionado tanto con el desarrollo web como con el Posicionamiento SEO, se trata de la importancia del **atributo alt** en las imágenes de nuestra web.
 

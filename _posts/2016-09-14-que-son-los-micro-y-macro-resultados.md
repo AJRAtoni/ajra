@@ -6,10 +6,6 @@ slug: que-son-los-micro-y-macro-resultados
 date: 2016-09-14T02:46:04.000Z
 ---
 
-### ¿Que son los Micro y Macro resultados?
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*PKnHsILEGLGaTTH0)
-
 En este post quiero hablaros un poco de los Micro y Macro resultados.
 
 Si lo resumimos “muy mucho” la cosa queda así:

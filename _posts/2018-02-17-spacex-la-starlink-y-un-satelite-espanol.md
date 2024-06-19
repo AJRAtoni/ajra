@@ -6,10 +6,6 @@ slug: spacex-la-starlink-y-un-satelite-espanol
 date: 2018-02-17T01:21:00.000Z
 ---
 
-### SpaceX — La Starlink y un satélite español
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*n1-Mb0vJ3H-Fq-NebWnS8g.png)
-
 **SpaceX** con **Elon Musk** a la cabeza no dejan de trabajar e innovar.
 
 El éxito cosechado con el lanzamiento del **Falcon Heavy** no ha hecho que se duerman en los laureles y este próximo domingo 18 de febrero tienen programado un nuevo lanzamiento de un **Falcon 9** con una carga muy especial.

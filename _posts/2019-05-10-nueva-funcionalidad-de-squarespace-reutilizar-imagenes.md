@@ -6,8 +6,6 @@ slug: nueva-funcionalidad-de-squarespace-reutilizar-imagenes
 date: 2019-05-10T00:07:54.000Z
 ---
 
-### Nueva funcionalidad de Squarespace — Reutilizar imágenes
-
 Hoy Squarespace ha anunciado una nueva función que todos esperábamos, la reutilizaron de imágenes.
 
 Esto nos permite acceder y utilizar las imágenes que ya hemos agregado anteriormente a nuestros sitios web.

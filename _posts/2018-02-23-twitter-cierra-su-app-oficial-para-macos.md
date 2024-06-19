@@ -6,10 +6,6 @@ slug: twitter-cierra-su-app-oficial-para-macos
 date: 2018-02-23T01:11:00.000Z
 ---
 
-### Twitter cierra su app oficial para macOS
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*6jVeSaXe-9D7F-duk5HPTA.png)
-
 Twitter ha anunciado mediante su cuenta oficial que va a cerrar su app para macOS.
 
 > _We’re focusing our efforts on a great Twitter experience that’s consistent across platforms. So, starting today the Twitter for Mac app will no longer be available for download, and in 30 days will no longer be supported._

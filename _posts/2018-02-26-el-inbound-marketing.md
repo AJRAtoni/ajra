@@ -6,10 +6,6 @@ slug: el-inbound-marketing
 date: 2018-02-26T05:00:00.000Z
 ---
 
-### El Inbound Marketing
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*c0eeo_Leq5f4QnIj5RqFlA.jpeg)
-
 El inbound marketing sigue siendo una de las grandes tendencias del Marketing Digital.
 
 ### ¿Qué es el inbound marketing?

@@ -6,10 +6,6 @@ slug: nuevos-marcadores-en-twitter
 date: 2018-03-01T05:00:00.000Z
 ---
 
-### Nuevos marcadores en Twitter
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*dqEo_eLHygr4zevddOMYpg.jpeg)
-
 Por fin se han puesto las pilas y han decidido implementar una nueva característica que los usuarios llevaban años esperando.
 
 Hasta ahora cuando nos encontrábamos un tweet interesante o que queríamos guardar para revisiones más tarde, muchos lo marcábamos como “favorito” para tenerlo localizado, el único inconveniente es que esos tuits se almacenaban de forma pública, y cualquier usuario podía ver todos los tuits que guardabas.

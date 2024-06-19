@@ -6,10 +6,6 @@ slug: macos-catalina-ya-esta-disponible
 date: 2019-10-08T03:37:56.805Z
 ---
 
-### macOS Catalina ya está disponible
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*cmet_euOVgE85yARZiICrw.jpeg)
-
 Después de meses desde su presentación en la WWDC19, Apple ha lanzado la actualización de su sistema operativo: **macOS Catalina**.
 
 ![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*OybIJ0fOAqtdGAANwyibDQ.jpeg)

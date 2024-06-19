@@ -6,12 +6,9 @@ slug: sublime-text
 date: 2016-08-11T03:43:38.000Z
 ---
 
-### Sublime Text
 
 En este artículo quería hablaros de una de las herramientas que más uso en mi dia a día.  
 Se trata de **Sublime Text**.
-
-![Imagen de Sublime Text](https://cdn-images-1.medium.com/max/800/1*eoj75c8S4c-T326BeB6bgA.png)
 
 **Sublime Text** es posiblemente uno de los mejores y más flexibles editores de código que puedes encontrar a día de hoy y además se trata de una aplicación multiplataforma, por lo que no tienes excusa para utilizarlo desde Windows, GNU/Linux o macOS.
 

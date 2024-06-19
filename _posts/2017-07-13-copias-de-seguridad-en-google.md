@@ -6,8 +6,6 @@ slug: copias-de-seguridad-en-google
 date: 2017-07-13T23:10:43.000Z
 ---
 
-### Copias de seguridad en Google
-
 Google ha actualizado hoy su aplicación de **Google Drive** ofreciendo ahora la posibilidad de realizar copias de seguridad de tu PC y Mac.
 
 ![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*vZirZoll_f6amObE)

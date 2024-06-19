@@ -8,8 +8,6 @@ date: 2016-02-07T18:39:38.000Z
 
 Son muchos los clientes que nos han contactado pidiendo información sobre el **PPC** y el **SEM**. Parece que a muchos les han recomendado usar estas estrategias de Marketing Online pero no saben muy bien de qué se trata, así que en este artículo vamos a intentar aportar un poco de luz sobre el tema.
 
-![Imagen sobre SEM y PPC](https://cdn-images-1.medium.com/max/800/1*4DPB2RC3-2lGqFbPdeLf1g.jpeg)
-
 ### COMENCEMOS POR EL PRINCIPIO: ¿QUÉ ES EL PPC?
 
 **PPC** es el acrónimo de **Pay Per Clic**, o lo que es lo mismo pago por clic.

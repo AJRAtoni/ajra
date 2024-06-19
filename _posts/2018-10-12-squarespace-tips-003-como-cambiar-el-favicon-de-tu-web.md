@@ -6,9 +6,6 @@ slug: squarespace-tips-003-como-cambiar-el-favicon-de-tu-web
 date: 2018-10-12T00:53:17.000Z
 ---
 
-### SQUARESPACE TIPS #003 — Como cambiar el Favicon de tu web
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*skEEPFflSq3GH99qEy9BaQ.png)
 
 En el tip de hoy vamos a ver como cambiar el Favicon de tu pagina de Squarespace.
 

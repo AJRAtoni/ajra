@@ -6,10 +6,6 @@ slug: google-compra-fitbit
 date: 2019-11-01T13:54:16.000Z
 ---
 
-### Google compra Fitbit
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*nIA4dqmrV4oJtSF7ZP8aHQ.png)
-
 Google ha anunciado hoy que han firmado un acuerdo para adquirir **Fibit** por $2,100 millones.
 
 Según **Google** el objetivo de la compra es estimular la innovación en wearables y crear herramientas que ayuden a las personas a mejorar su conocimiento, su éxito, salud y su felicidad.

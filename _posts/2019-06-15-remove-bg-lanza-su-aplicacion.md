@@ -6,10 +6,6 @@ slug: remove-bg-lanza-su-aplicacion
 date: 2019-06-15T21:02:26.000Z
 ---
 
-### Remove.bg lanza su aplicación
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*wuM2GIYL3BxCru1-M5qXiA.jpeg)
-
 Ya hace un tiempo que [os hable de Remove.bg](https://ajra.es/removebg/) una interesante herramienta web que nos permite eliminar automáticamente el fondo de una fotografía.
 
 Pues desde entonces no he dejado de utilizarla y de hacer seguimiento para ver como evolucionaba la empresa, y me he quedado sorprendido de la velocidad y efectividad con la que van introduciendo novedades.

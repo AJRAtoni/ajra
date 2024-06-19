@@ -6,7 +6,6 @@ slug: amazon-presenta-el-fire-tv-cube
 date: 2018-06-07T22:40:39.000Z
 ---
 
-### Amazon presenta el Fire TV Cube
 
 Amazon ha presentado hoy un nuevo dispositivo, la simbiosis entre el Fire TV y Alexa; el Fire TV Cube.
 

@@ -6,10 +6,6 @@ slug: mailchimp-y-los-google-remarketing-ads
 date: 2017-10-04T20:06:40.000Z
 ---
 
-### MailChimp y los Google Remarketing Ads
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*BVO1U1jeQWRLRq0w0sajNw.jpeg)
-
 En un mundo perfecto, el camino que tus clientes siguen para comprar algo en tu web sería simple: el cliente entra en tu web, encuentra el producto que está buscando y lo compra.
 
 Pero no vivimos en un mundo perfecto y la vida está llena de distracciones; una llamada telefónica, un correo electrónico, un GIF de gatitos, hay mil cosas que hacen que nuestros clientes se despisten y acaben saliendo de nuestra web sin acabar la compra.

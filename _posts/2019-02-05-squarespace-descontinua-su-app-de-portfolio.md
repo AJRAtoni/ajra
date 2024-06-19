@@ -6,10 +6,6 @@ slug: squarespace-descontinua-su-app-de-portfolio
 date: 2019-02-05T09:56:58.000Z
 ---
 
-### Squarespace Descontinúa su App de portfolio
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*xx99Der1xS4y6sbT)
-
 Squarespace ha avisado hoy a todos sus usuarios que el próximo 4 de marzo dejarán de dar soporte a la App de Portfolio.
 
 El pasado mes de diciembre lanzaron su nueva App con la controlar todo tu sitio web desde dispositivos móviles y entre sus múltiples opciones está la de gestionar y actualizar tus galerías de fotos.

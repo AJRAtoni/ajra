@@ -8,8 +8,6 @@ date: 2016-06-05T22:28:00.000Z
 
 ¿Conoces ThemeForest?
 
-![Imagen de ThemeForest](https://cdn-images-1.medium.com/max/800/1*opNILZyFCkMx9t8lxpUcYA.png)
-
 Es una web en la que venden plantillas y themes para tu WordPress.
 
 Y además es una de las empresas que más dinero nos hacen ganar.

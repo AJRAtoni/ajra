@@ -6,8 +6,6 @@ slug: outlook-para-ios-se-actualiza
 date: 2017-07-13T03:36:59.000Z
 ---
 
-### Outlook para iOS se actualiza
-
 Los chicos de **Microsoft** han actualizado su app de **Outlook** para iOS.
 
 Una de las novedades que más nos atrae es la de las respuestas rápidas.  

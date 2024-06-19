@@ -6,7 +6,6 @@ slug: las-7-reglas-basicas-para-el-diseno-de-botones
 date: 2019-08-15T03:48:19.000Z
 ---
 
-### Las 7 reglas básicas para el diseño de botones
 
 Los botones son un elemento esencial en una página web, es la forma en la que el usuario interactúa con el sistema.
 

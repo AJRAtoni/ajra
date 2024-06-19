@@ -6,8 +6,6 @@ slug: los-beneficios-de-la-publicidad-online
 date: 2016-09-10T00:26:28.000Z
 ---
 
-### Los beneficios de la publicidad online
-
 Hoy en quiero hablaros de los beneficios de la publicidad Online.  
 Para ello vamos a comenzar con un ejemplo:
 

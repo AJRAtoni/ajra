@@ -6,13 +6,9 @@ slug: wordpress-4-4-y-sus-novedades
 date: 2015-12-10T23:21:19.000Z
 ---
 
-### WordPress 4.4 y sus novedades
-
 Desde hace un par de días esta disponible para descargar la nueva actualización oficial de [WordPress.org](https://wordpress.org/): WordPress 4.4 Clifford.
 
 Desde este artículo vamos a hacer un breve repaso a las novedades más importantes que incorpora este popular CMS, y digo popular porque no para de crecer, hasta el punto que a día de hoy 1 de cada 4 webs que hay en Internet ya esta desarrollada sobre **WordPress**.
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*MdwF5P-InEMtGi-YuWK0_A.png)
 
 ### ¿Qué novedades trae WordPress 4.4?
 

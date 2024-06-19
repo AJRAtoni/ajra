@@ -6,9 +6,6 @@ slug: facebook-y-la-no-importancia-de-los-me-gusta
 date: 2016-10-25T05:41:13.000Z
 ---
 
-### FACEBOOK Y LA (NO) IMPORTANCIA DE LOS “ME GUSTA”
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*ADHX6hi7riYZX2fb)
 
 Este ha sido un fin de semana movidito, Facebook ha hecho una serie de cambios y entre ellos ha reubicado los “Me Gusta”.
 

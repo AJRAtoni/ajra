@@ -6,10 +6,6 @@ slug: elementor-se-integra-con-slack
 date: 2018-12-19T08:15:40.000Z
 ---
 
-### Elementor se integra con Slack
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*vyRBKvroRNn7kDgs)
-
 Con la última actualización de **Elementor** ya podemos integrar nuestros formularios de contacto con **Slack**.
 
 Ahora cuando un usuario rellene un formulario de contacto de tu web puedes recibir la información en tu Slack.

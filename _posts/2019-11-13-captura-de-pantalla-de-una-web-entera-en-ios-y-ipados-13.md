@@ -6,10 +6,6 @@ slug: captura-de-pantalla-de-una-web-entera-en-ios-y-ipados-13
 date: 2019-11-13T17:47:38.000Z
 ---
 
-### Captura de pantalla de una web entera en iOS & iPadOS 13
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*mJP0II_KadSLzPw9xdO_zw.jpeg)
-
 En iOS y iPadOS 13 es increíblemente fácil el hacer una captura de pantalla de una web completa, solo hay que seguir estos pasos:
 
 1. Abrimos la App **Safari** en iOS o iPadOS y navegamos hasta la página que queremos capturar.

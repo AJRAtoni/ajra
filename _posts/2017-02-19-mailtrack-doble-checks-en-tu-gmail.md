@@ -6,11 +6,8 @@ slug: mailtrack-doble-checks-en-tu-gmail
 date: 2017-02-19T00:00:18.000Z
 ---
 
-### MailTrack: Doble-Checks en tu Gmail.
 
 Esta semana quiero recomendaros una aplicación de esas que uso a diario para mi trabajo, se trata de MailTrack.
-
-![Imagen de MailTrack](https://cdn-images-1.medium.com/max/800/1*Xylhi6AX5Miq-xo_Pe-cFg.jpeg)
 
 ### ¿Que es Mailtrack?
 

@@ -6,9 +6,6 @@ slug: applecare-pasa-a-un-sistema-de-suscripcion-mensual
 date: 2019-09-12T00:19:03.000Z
 ---
 
-### AppleCare+ pasa a un sistema de suscripción mensual
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*2t6oT_wvhHqN9BFL.jpeg)
 
 Aún estamos con la resaca de la Keynote de ayer, pero Apple no para y hoy lanzado un anuncio sobre el nuevo funcionamiento del AppleCare+.
 

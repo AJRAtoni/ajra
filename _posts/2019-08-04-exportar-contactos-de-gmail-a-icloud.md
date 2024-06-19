@@ -6,8 +6,6 @@ slug: exportar-contactos-de-gmail-a-icloud
 date: 2019-08-04T02:42:14.000Z
 ---
 
-### Exportar contactos de Gmail a iCloud
-
 En este tutorial vamos a ver cómo pasar nuestros contactos de una cuenta de Google (Gmail) a una cuenta de Apple (iCloud).
 
 Lo primero que tenemos que hacer es ir a la página [contacts.google.com](https://contacts.google.com/) y hacer login con nuestra cuenta.

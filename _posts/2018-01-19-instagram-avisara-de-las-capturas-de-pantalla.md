@@ -6,8 +6,6 @@ slug: instagram-avisara-de-las-capturas-de-pantalla
 date: 2018-01-19T21:27:00.000Z
 ---
 
-### Instagram avisará de las capturas de pantalla
-
 **Instagram** no para de crecer, actualmente ya es la segunda red social más grande del mundo, solo superada por **Facebook**.
 
 Ese crecimiento se debe a una continua evolución e implementación de nuevas funciones.

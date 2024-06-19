@@ -6,10 +6,6 @@ slug: calendar-2-minaba-criptomonedas-con-tu-cpu
 date: 2018-03-17T04:00:00.000Z
 ---
 
-### Calendar 2 minaba criptomonedas con tu CPU
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*KZW8uUKA039mTXPpmR-9XQ.jpeg)
-
 La aplicación **Calendar 2** es una aplicación bastante conocida para gestionar calendarios y que se hasta el día de hoy se encontraba disponible para descargar desde la **Mac App Store**.
 
 ### ¿Por qué ya no está disponible?

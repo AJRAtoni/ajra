@@ -6,8 +6,6 @@ slug: clips-la-nueva-app-de-apple
 date: 2017-04-07T04:23:10.000Z
 ---
 
-### Clips — la nueva app de Apple
-
 ![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*5kOOyOVmA1vlQUiZoSBuOQ.jpeg)
 
 Apple ya había [anunciado el lanzamiento de esta app](http://www.apple.com/clips/), y ya está disponible para descargar.

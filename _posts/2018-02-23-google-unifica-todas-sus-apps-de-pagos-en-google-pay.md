@@ -6,10 +6,6 @@ slug: google-unifica-todas-sus-apps-de-pagos-en-google-pay
 date: 2018-02-23T01:09:00.000Z
 ---
 
-### Google unifica todas sus apps de pagos en Google Pay
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*HKTRho2LSaMGG660VtX3oQ.png)
-
 Ya podemos decirle adiós a Google Wallet, Android Pay y demás aplicaciones de pagos en Android.  
 Google ha decidido unificar todas sus apps de pagos en una sola marca: [Google Pay](https://www.blog.google/topics/shopping-payments/say-hello-to-google-pay/).
 

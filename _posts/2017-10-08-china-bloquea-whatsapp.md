@@ -6,10 +6,6 @@ slug: china-bloquea-whatsapp
 date: 2017-10-08T10:13:18.000Z
 ---
 
-### China bloquea WhatsApp
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*C0c2j_JA2UoSG6Lr.jpg)
-
 El Gobierno chino ha decidido, tras un cambio de regulación, bloquear **WhatsApp** en todo el país.
 
 Al parecer al Gobierno chino no le gusta demasiado el cifrado que usa **WhatsApp** en sus conversaciones, es demasiado seguro y por lo tanto no pueden acceder a las conversaciones de sus usuarios.

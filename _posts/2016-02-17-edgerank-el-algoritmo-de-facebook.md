@@ -8,7 +8,6 @@ date: 2016-02-17T02:05:16.000Z
 
 Hoy os dejo otro breve artículo relacionado con el Marketing Online.
 
-![Imagen sobre el algoritmo de Facebook](https://cdn-images-1.medium.com/max/800/1*6rbpEDyEmYXqMb37OjlRbQ.png)
 
 ### ¿SABÉIS LO QUE ES EL EDGERANK DE FACEBOOK?
 

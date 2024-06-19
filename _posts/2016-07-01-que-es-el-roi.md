@@ -6,10 +6,6 @@ slug: que-es-el-roi
 date: 2016-07-01T14:06:59.000Z
 ---
 
-### ¿Qué es el ROI?
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*Mcq52YaaYDcx_mL5HMqgPg.jpeg)
-
 ROI es el acrónimo de “Return On Investment” (Retorno de la Inversión) se calcula mediante una sencilla fórmula que nos aportará un resultado económica con el que sabremos el rendimiento obtenido de una inversión.
 
 En otras palabras, con el ROI sabremos cuánto dinero hemos ganado gracias al dinero que hemos gastado.

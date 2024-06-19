@@ -6,9 +6,6 @@ slug: squarespace-tips-009-anchor-links
 date: 2019-07-03T20:31:59.000Z
 ---
 
-### SQUARESPACE TIPS #009 — Anchor Links
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*Rc2AymnfUtw3PPvv)
 
 Seguimos con los Squarespace Tips, en esta ocasión os quiero contar que es y como crear un anchor link en Squarespace.
 

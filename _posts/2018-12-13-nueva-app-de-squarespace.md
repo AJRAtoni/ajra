@@ -6,10 +6,6 @@ slug: nueva-app-de-squarespace
 date: 2018-12-13T06:19:41.000Z
 ---
 
-### Nueva App de Squarespace
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*f00FqwF0k5JEe8ex)
-
 Los chicos de **Squarespace** han lanzado hoy su nueva App para dispositivos móviles.
 
 Una nueva App desde la cual tendremos control total de nuestras webs desde nuestro móvil, permitiéndonos cosas como:

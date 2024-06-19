@@ -8,8 +8,6 @@ date: 2012-01-26T20:56:12.000Z
 
 Se han filtrado las características del próximo modelo Curve de BlackBerry.
 
-![Imagen del BlackBerry 9220](https://cdn-images-1.medium.com/max/800/0*-VR3l35yVGbJD5El)
-
 La gama “Curve” se caracteriza por ser la gama mas baja/asequible de RIM. El modelo es la BlackBerry Curve 9220, sus dimensiones serán de 109 x 60 x 12.7 mm. Será Cuatribanda y contará con una pantalla de 2.44″ con resolución qVGA de 320 x 250 a 164 dpi.  
 La cámara será de 2MP con capacidad para grabar videos y con un zoom digital de 5X.
 

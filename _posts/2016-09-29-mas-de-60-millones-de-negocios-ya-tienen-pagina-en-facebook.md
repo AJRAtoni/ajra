@@ -6,10 +6,6 @@ slug: mas-de-60-millones-de-negocios-ya-tienen-pagina-en-facebook
 date: 2016-09-29T03:45:30.000Z
 ---
 
-### Más de 60 millones de negocios ya tienen página en Facebook.
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*YMou_KEH7L3lIATw)
-
 Facebook ha hecho público algunos números relacionados con el uso que hacen las empresas de su plataforma.
 
 De momento más de 60 millones de negocios ya tienen su página de empresa en Facebook. Y unos 4 millones de negocios hacen uso de la plataforma de Facebook Ads.

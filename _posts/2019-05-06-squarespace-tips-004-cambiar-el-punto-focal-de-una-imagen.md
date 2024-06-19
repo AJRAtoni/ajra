@@ -6,8 +6,6 @@ slug: squarespace-tips-004-cambiar-el-punto-focal-de-una-imagen
 date: 2019-05-06T21:46:47.000Z
 ---
 
-### SQUARESPACE TIPS #004 — Cambiar el punto focal de una imagen
-
 Seguro que en alguna ocasión has subido una imagen a tu pagina web y ha aparecido recortada de forma extraña.
 
 O se veía bien en la vista de escritorio pero aparecía recortada en la vista de smartphone o tablet.

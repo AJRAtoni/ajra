@@ -6,10 +6,6 @@ slug: 10-errores-seo-que-debemos-evitar
 date: 2017-07-01T09:14:56.000Z
 ---
 
-### 10 Errores SEO que debemos evitar
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*l0UMf6ck8gK4qwSr.jpg)
-
 En muchas ocasiones, cuando construimos una página web, nos centramos en el diseño y en el contenido, pero nos olvidamos de una de las partes más importantes, el SEO.
 
 Por eso he decidido crear esta recopilación de los 10 errores de SEO más comunes y que debemos evitar.

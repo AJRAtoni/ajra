@@ -6,7 +6,6 @@ slug: squarespace-tips-005-configurar-google-analytics-en-squarespace
 date: 2019-05-09T18:00:00.000Z
 ---
 
-### SQUARESPACE TIPS #005 — Configurar Google Analytics en Squarespace
 
 Squarespace ofrece unas analíticas propias y bastante completas.
 

@@ -8,8 +8,6 @@ date: 2016-05-19T06:22:19.000Z
 
 **Google Allo**, el enésimo intento de Google por derrocar a **Whatsapp**.
 
-![Imagen de Google Allo](https://cdn-images-1.medium.com/max/800/1*YpWPqGUBeJbFlt7GEFMZTA.jpeg)
-
 Durante el I/O 2016 (la keynote anual de Google) los chicos de Mountain View han presentado muchas cosas, entre ellas, **Google Allo**, el enésimo intento de Google por sacar la app de mensajería instantánea definitiva.
 
 En el siguiente video podemos ver las principales características que trae **Google Allo**:

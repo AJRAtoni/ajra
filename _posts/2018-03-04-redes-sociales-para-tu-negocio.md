@@ -6,10 +6,6 @@ slug: redes-sociales-para-tu-negocio
 date: 2018-03-04T05:00:00.000Z
 ---
 
-### Redes Sociales para tu negocio
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*Vbrdeg30H2qgBxjVjlnL5Q.jpeg)
-
 Usar las redes sociales para promocionar tu negocio parece algo simple y sencillo.
 
 Lanzas un par de posts y listo, a esperar que tus clientes lleguen y comiencen a comprarte como locos.

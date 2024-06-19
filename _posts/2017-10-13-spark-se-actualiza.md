@@ -6,11 +6,7 @@ slug: spark-se-actualiza
 date: 2017-10-13T05:48:48.000Z
 ---
 
-### Spark se actualiza
-
 Hoy quiero hablaros de **Spark**, el que para muchos es el mejor cliente de correos disponibles para **iOS** y **macOS**.
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*D4ItuI8hXxlaffgrI8XPEg.jpeg)
 
 Con cada actualización **Spark** trae nuevas e interesantes características, en esta **versión 1.11** hay que destacar sus dos ultimas incorporaciones:
 

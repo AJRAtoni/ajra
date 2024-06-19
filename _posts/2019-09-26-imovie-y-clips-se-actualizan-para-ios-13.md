@@ -6,7 +6,6 @@ slug: imovie-y-clips-se-actualizan-para-ios-13
 date: 2019-09-26T02:18:31.000Z
 ---
 
-### iMovie y Clips se actualizan para iOS 13
 
 Apple ha actualizado sus aplicaciones de vídeo (iMovie y Clips) para adaptarlas a la llegada de iOS 13 y iPadOS 13.
 

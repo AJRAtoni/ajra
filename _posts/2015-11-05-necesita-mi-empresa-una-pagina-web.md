@@ -6,11 +6,7 @@ slug: necesita-mi-empresa-una-pagina-web
 date: 2015-11-05T06:42:39.000Z
 ---
 
-### ¿Necesita mi empresa una pagina web?
-
 Parece un poco extraño, pero todavía hay empresas que a día de hoy nos hacen esta pregunta.
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*ywR4MeNw9yMMuI8ITDBq3Q.jpeg)
 
 ### ¿NECESITA MI EMPRESA UNA PAGINA WEB?
 

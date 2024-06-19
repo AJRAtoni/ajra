@@ -8,8 +8,6 @@ date: 2017-06-11T08:00:00.000Z
 
 Los chicos de **Automattic** han actualizado **WordPress** a la version 4.8 y estas son las novedades que incorpora.
 
-![Imagen de la actualización de WordPress](https://cdn-images-1.medium.com/max/800/1*LNVSki1-OEYiH8kfFOP5qA.png)
-
 Comenzamos destacando los 3 nuevos widgets que incorpora esta nueva version de WordPress:
 
 - Widget de imagen, para poder introducir una imagen en cualquier sitio, sin necesidad de usar ningún plugin externo.

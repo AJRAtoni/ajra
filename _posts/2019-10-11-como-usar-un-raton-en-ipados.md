@@ -6,10 +6,6 @@ slug: como-usar-un-raton-en-ipados
 date: 2019-10-11T00:10:47.000Z
 ---
 
-### Como usar un raton en iPadOS
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*0nRHsdxr897UGM2RNGTAvA.jpeg)
-
 Una de las novedades que trae iPadOS es la posibilidad de utilizar un raton conectado a nuestro iPad, algo que los usuarios estaban pidiendo desde hace tiempo.
 
 Por el momento la opción de conectar un raton a iPad está un poco oculta y está dentro del apartado de Accesibilidad.

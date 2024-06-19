@@ -6,10 +6,6 @@ slug: tu-web-en-5-minutos-con-about-me
 date: 2019-06-19T11:54:58.000Z
 ---
 
-### Tu web en 5 minutos con ABOUT.ME
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/2560/1*31FkEIoBztk7JRoWrWevBw.png)
-
 About.me es una herramienta web que nos permite diseñar una web personal, similar a una tarjeta de presentación, de forma sencilla y rápida.
 
 En menos de 5 minutos puedes tener tu web lista y funcionando.

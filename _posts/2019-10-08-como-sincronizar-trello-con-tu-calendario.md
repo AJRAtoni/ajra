@@ -6,10 +6,6 @@ slug: como-sincronizar-trello-con-tu-calendario
 date: 2019-10-08T03:35:33.600Z
 ---
 
-### Como sincronizar Trello con tu calendario
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*5ibaxtIhq0GnN-ao8I4y1g.jpeg)
-
 Una de las funciones interesantes que tiene Trello es la posibilidad de poner una fecha de finalización a las tarjetas/tareas.
 
 Es algo muy sencillo, que se hace de forma rápida y nos permite tener nuestras tareas bien organizadas en el tiempo.

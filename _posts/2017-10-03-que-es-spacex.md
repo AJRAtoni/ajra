@@ -6,10 +6,6 @@ slug: que-es-spacex
 date: 2017-10-03T23:31:56.000Z
 ---
 
-### ¿Que es SpaceX?
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*9klRZ_iFBgkl383sE2RnGA.jpeg)
-
 **SpaceX** es una empresa norteamericana fundada en 2002 por **Elon Musk** (quien también fundó PayPal y Tesla, entre otros) y se especializan en diseñar, manufacturar y lanzar cohetes y naves al espacio.
 
 En la actualidad cuentan con 3 tipos de vehículos diferentes:

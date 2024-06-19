@@ -6,9 +6,6 @@ slug: lanzamiento-del-koreasat-5a
 date: 2017-10-31T00:08:26.000Z
 ---
 
-### Lanzamiento del Koreasat-5A
-
-![Imagen del lanzamiento](https://cdn-images-1.medium.com/max/800/1*HCdjfz-czqCaB1aimFIrQA.jpeg)
 
 **SpaceX** ha vuelto a realizar un lanzamiento con éxito.  
 En esta ocasión un cohete **Falcon9** ha puesto en órbita al satélite **Koreasat-5A**.

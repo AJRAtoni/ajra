@@ -6,10 +6,6 @@ slug: wp-engine-ha-comprado-studiopress
 date: 2018-06-29T03:32:11.000Z
 ---
 
-### WP Engine ha comprado STUDIOPRESS
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*36MgRn2xtTl6sRMjKVgBMQ.jpeg)
-
 Hoy nos despertamos con una interesante noticia en el mundo del desarrollo web, y es que [WP Engine](https://wpengine.com) ha comprado a [StudioPress](https://www.studiopress.com).
 
 La compra de StudioPress incluye su famoso Framework Genesis y todos sus themes, los cuales serán incluidos en los planes de WP Engine sin coste adicional a partir de otoño.

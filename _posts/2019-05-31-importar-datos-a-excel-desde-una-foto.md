@@ -6,8 +6,6 @@ slug: importar-datos-a-excel-desde-una-foto
 date: 2019-05-31T18:05:44.000Z
 ---
 
-### Importar datos a Excel desde una foto
-
 Microsoft ha actualizado la aplicación de Excel para iOS y ahora va a ser mucho más fácil importar datos a una tabla.
 
 Si tenemos un dispositivo iOS bastará con hacer una foto de una tabla para que Excel la detecte, interprete e implemente en tu hoja de Excel.

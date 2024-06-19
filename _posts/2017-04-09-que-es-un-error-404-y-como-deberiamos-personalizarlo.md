@@ -6,8 +6,6 @@ slug: que-es-un-error-404-y-como-deberiamos-personalizarlo
 date: 2017-04-09T00:17:28.000Z
 ---
 
-### Que es un Error 404 y como deberíamos personalizarlo
-
 El error 404 se le muestra al usuario cuando el navegador ha contactado correctamente con nuestra web, pero no ha sido capaz de encontrar el contenido que se pide.
 
 Esto suele pasar cuando una página ha sido renombrada o borrada.

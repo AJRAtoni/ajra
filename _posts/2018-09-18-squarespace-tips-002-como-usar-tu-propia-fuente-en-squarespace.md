@@ -6,10 +6,6 @@ slug: squarespace-tips-002-como-usar-tu-propia-fuente-en-squarespace
 date: 2018-09-18T02:26:28.000Z
 ---
 
-### SQUARESPACE TIPS #002 — Como usar tu propia fuente en Squarespace
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*tbedHSs6-1T-VZnx)
-
 Squarespace tiene decenas de fuentes que podemos utilizar en nuestros sitios web.
 
 Pero en ocasiones nuestro clientes quieren usar una fuente en concreto o tienen su propia fuente personalizada y desean usar esa, así que vamos a ver los pasos a seguir en esa situación.

@@ -6,9 +6,6 @@ slug: instagram-oculta-el-contador-de-me-gusta
 date: 2019-05-03T18:45:48.000Z
 ---
 
-### Instagram oculta el contador de “Me gusta”
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*NFxQBEw9ZO1-vcDg)
 
 Al parecer desde Facebook no quieren que Instagram se convierta en una competición para ver quién tiene más “me gusta”.
 

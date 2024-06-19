@@ -6,10 +6,6 @@ slug: facebook-paga-a-usuarios-para-que-se-instalen-su-software-espia
 date: 2019-01-30T23:56:01.000Z
 ---
 
-### Facebook paga a usuarios para que se instalen su software espía
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*n8EYR5ykduKUYyAp)
-
 Parece que Facebook no aprende.
 
 Se ha descubierto que Facebook ha estado pagando en secreto a usuarios a cambio de que se instalen el VPN “Facebook Research” que permite a la compañía captar toda la actividad web del usuario.

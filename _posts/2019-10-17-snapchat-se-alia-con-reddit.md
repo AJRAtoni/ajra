@@ -6,10 +6,6 @@ slug: snapchat-se-alia-con-reddit
 date: 2019-10-17T12:36:16.000Z
 ---
 
-### Snapchat se alia con Reddit
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*nB7ICTXNynkOZELktZv7IQ.png)
-
 Parece que poco a poco Snapchat esta consiguiendo recuperarse de los ataques de Facebook.
 
 Y para acabar de reinventarse Snapchat ha decidido aliarse con el agregado de noticias Reddit.

@@ -6,10 +6,6 @@ slug: ya-puedes-compartir-las-stories-de-instagram-en-facebook
 date: 2017-10-06T02:25:25.000Z
 ---
 
-### Ya puedes compartir las Stories de Instagram en Facebook
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*gPZ5YQ-J_v5GVdjk)
-
 Hace tiempo que **Facebook** no pudo comprar **Snapchat** así que decidió contraatacar copiando todos los servicios e implementándolos en todas y cada una de las plataformas que tiene la compañía de **Mark Zuckerberg**, las Stories se extendían por todo, Instagram, Facebook, WhatsApp, Messenger…
 
 Fue una buena estrategia para plantarle cara a **Snapchat** pero a la larga se ha comprobado que lo de tener Stories en todas las plataformas es un arma de doble filo.

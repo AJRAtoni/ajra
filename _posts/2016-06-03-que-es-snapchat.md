@@ -8,8 +8,6 @@ date: 2016-06-03T04:28:18.000Z
 
 Se trata de la red social y app de moda entre los jóvenes.
 
-![Imagen de Snapchat](https://cdn-images-1.medium.com/max/800/1*g7qSqwUHWClAG7zLt2yofw.png)
-
 Una aplicación móvil desde la que podemos enviar fotos y videos, en los cuales podemos añadir textos, dibujos y emoticonos.
 
 Según los últimos datos **Snapchat tiene más de 100 millones de usuarios diarios**, se envían **más de 400 millones de fotos al día** (más que en Facebook), se reproducen **5 mil millones de vídeos al día** y el **5% de las selfies** que se hacen a nivel mundial.

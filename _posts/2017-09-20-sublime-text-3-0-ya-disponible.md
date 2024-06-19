@@ -6,8 +6,6 @@ slug: sublime-text-3-0-ya-disponible
 date: 2017-09-20T06:59:13.000Z
 ---
 
-### Sublime Text 3.0 ya disponible
-
 Después de un año de desarrollo el que posiblemente sea el mejor editor de código ya está aquí.
 
 Estamos hablando de **Sublime Text 3.0**.

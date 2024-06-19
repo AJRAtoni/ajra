@@ -6,10 +6,6 @@ slug: venmo-bitmoji
 date: 2019-06-20T23:07:41.000Z
 ---
 
-### VENMO + BITMOJI = ❤️
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*3C6IExfBD4U5syB_ZMC2tw.jpeg)
-
 Venmo y Bitmoji han llegado a un acuerdo, ahora la conocida app de micropagos entre particulares nos permite usar los Bitmojis en sus notas de pago.
 
 ### ¿Cómo funciona?

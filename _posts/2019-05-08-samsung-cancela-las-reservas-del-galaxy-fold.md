@@ -6,7 +6,6 @@ slug: samsung-cancela-las-reservas-del-galaxy-fold
 date: 2019-05-08T06:00:00.000Z
 ---
 
-### Samsung cancela las reservas del Galaxy Fold
 
 El lío del **Galaxy Fold** va para largo ya que Samsung está cancelando todas las reservas que tenían de este terminal.
 

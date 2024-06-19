@@ -6,11 +6,7 @@ slug: google-maps-ya-esta-disponible-en-ios
 date: 2012-12-13T10:49:31.000Z
 ---
 
-### Google Maps ya está disponible en iOS.
-
 Tres meses después de que Apple decidiese cambiar los mapas de Google por los suyos propios, nos llega la app nativa de Google Maps.
-
-![Imagen de Google Maps](https://cdn-images-1.medium.com/max/800/1*25qzgjRxrMAcD-abarUCyQ.png)
 
 Ya paso anteriormente algo similar con la app de Youtube, y los chicos de Google supieron aprovecharlo para crear una app mejor que la original.
 

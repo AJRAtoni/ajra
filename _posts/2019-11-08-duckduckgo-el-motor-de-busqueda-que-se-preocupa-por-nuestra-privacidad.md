@@ -6,9 +6,6 @@ slug: duckduckgo-el-motor-de-busqueda-que-se-preocupa-por-nuestra-privacidad
 date: 2019-11-08T22:11:37.000Z
 ---
 
-### DuckDuckGo: El motor de búsqueda que se preocupa por nuestra privacidad
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*6OJaAytD5RuiJKlcLojuyw.jpeg)
 
 Google es el motor de búsqueda más utilizado a nivel mundial, la mayoría de los usuarios cuando tienen que buscar algo directamente acuden a Google.
 Lo que muchos no saben es que Google almacena todo lo que buscamos, qué páginas visitamos, qué productos queremos comprar en Amazon, y básicamente cualquier dato sobre nosotros que ellos consideren útil y del cual puedan sacar un beneficio económico.

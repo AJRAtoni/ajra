@@ -8,8 +8,6 @@ date: 2016-02-24T05:21:51.000Z
 
 En el artículo de hoy vamos a hablaros de una práctica muy interesante dentro del mundo del Marketing Digital, se trata de los **Tests A/B.**
 
-![Imagen sobre Test A/B](https://cdn-images-1.medium.com/max/800/1*VpiTBf_CODyk2p78C8olIQ.png)
-
 ### ¿QUÉ ES UN TEST A/B?
 
 Un **Test A/B** es un procedimiento que te permite realizar dos versiones diferentes de un mismo elemento (email, web, CTA, formulario, etc…) para luego poder analizar y comprobar cuál de las dos versiones ha obtenido mejores resultados.

@@ -6,10 +6,6 @@ slug: los-nuevos-friendmojis
 date: 2018-02-27T19:04:00.000Z
 ---
 
-### Los nuevos Friendmojis
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*647lOVvMab5SEIrtad1yug.jpeg)
-
 Si hay una compañía tecnológica que me tiene fascinado a día de hoy, esa es **Snap Inc.**
 
 Con **Evan Spiegel** a la cabeza descubrieron un mercado que ninguno había visto antes, una red social de imágenes efímeras que desaparecen con el paso del tiempo, así nació **Snapchat**.

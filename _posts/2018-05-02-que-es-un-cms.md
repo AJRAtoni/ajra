@@ -6,10 +6,6 @@ slug: que-es-un-cms
 date: 2018-05-02T21:34:36.000Z
 ---
 
-### Que es un CMS
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*_dzsIhfED13F5NpfvXfjXg.jpeg)
-
 Un **CMS** es un sistema de gestión de contenidos, en inglés *Content Management System*.
 Se trata de un software utilizado para crear páginas web que permite la publicación y edición de contenido de forma dinámica y sencilla.
 

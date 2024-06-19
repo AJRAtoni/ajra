@@ -6,9 +6,6 @@ slug: photoshop-para-ipad-en-version-beta
 date: 2019-05-29T17:00:58.000Z
 ---
 
-### Photoshop para iPad en versión beta
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*go6gsChB9RBB3pLg)
 
 Photoshop para iPad cada vez está más cerca.
 

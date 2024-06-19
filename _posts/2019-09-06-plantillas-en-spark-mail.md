@@ -6,10 +6,6 @@ slug: plantillas-en-spark-mail
 date: 2019-09-06T15:07:21.000Z
 ---
 
-### Plantillas en Spark Mail
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*vt19VQEq2tgmU-HB.png)
-
 Hoy quiero hablaros de Spark, otra vez.  
 No es la primera ve que hablo de Spark, pero no me canso de hacerlo ya que considero que es el mejor cliente de correos que podemos encontrar en iOS y iPadOS.
 

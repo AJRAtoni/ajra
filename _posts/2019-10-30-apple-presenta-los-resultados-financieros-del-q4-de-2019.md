@@ -6,10 +6,6 @@ slug: apple-presenta-los-resultados-financieros-del-q4-de-2019
 date: 2019-10-30T21:49:12.000Z
 ---
 
-### Apple presenta los resultados financieros del Q4 de 2019.
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*xQhQImEK8aekwQX5BihBRA.png)
-
 Apple ha presentado sus resultados financieros del ultimo trimestre fiscal de 2019.
 
 Los resultados han sido buenos con $64,000 millones de ingresos y $13,686 millones de beneficios netos.  

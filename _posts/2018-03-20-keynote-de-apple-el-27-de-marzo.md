@@ -6,10 +6,6 @@ slug: keynote-de-apple-el-27-de-marzo
 date: 2018-03-20T04:59:32.000Z
 ---
 
-### Keynote de Apple el 27 de marzo
-
-![Imagen de Keynote de Apple](https://cdn-images-1.medium.com/max/800/1*zQNOJdJt10ITogrqZa1nVw.jpeg)
-
 Apple ya ha enviado las invitaciones a la prensa de su próxima Keynote, el evento tendrá lugar el 27 de marzo de 2018 en Chicago.
 
 Ya tenemos la fecha confirmada, ahora solo queda esperar y ver cuántos de los rumores acaban tomando forma.

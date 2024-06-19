@@ -6,10 +6,6 @@ slug: squarespace-se-asocia-con-unsplash
 date: 2018-11-27T10:19:48.000Z
 ---
 
-### Squarespace se asocia con Unsplash
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*t1bP-AI4UVh2Ye9_)
-
 En muchas ocasiones pasamos más tiempo buscando una imagen para adjuntar a nuestro articulo, del que pasamos escribiéndolo.
 
 Los chicos de **Squarespace** saben que obtener imágenes de alta calidad para tu sitio web no siempre es fácil.  

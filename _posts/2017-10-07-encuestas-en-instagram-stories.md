@@ -6,10 +6,6 @@ slug: encuestas-en-instagram-stories
 date: 2017-10-07T01:49:04.000Z
 ---
 
-### Encuestas en Instagram Stories
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*80hTjWY_AsJZyzSzJrNx2g.jpeg)
-
 Seguimos con las noticias relacionadas con **Instagram**.
 
 En esta ocasión nos centramos en una nueva funcionalidad que han incluido en las Stories de **Instagram**, ahora podemos crear encuestas.

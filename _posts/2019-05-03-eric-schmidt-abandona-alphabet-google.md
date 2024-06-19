@@ -6,8 +6,6 @@ slug: eric-schmidt-abandona-alphabet-google
 date: 2019-05-03T19:26:29.000Z
 ---
 
-### Eric Schmidt abandona Alphabet (Google)
-
 Eric Schmidt ha anunciado que después de 18 años formando parte de Google ha decidido dejarlo.
 
 Para muchos Eric Schmidt junto a Larry Page y Serguéi Brin han sido el “alma” de Google.

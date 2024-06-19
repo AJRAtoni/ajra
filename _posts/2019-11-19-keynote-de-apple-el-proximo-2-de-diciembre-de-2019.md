@@ -6,10 +6,6 @@ slug: keynote-de-apple-el-proximo-2-de-diciembre-de-2019
 date: 2019-11-19T20:33:51.000Z
 ---
 
-### Keynote de Apple el proximo 2 de diciembre de 2019
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*8cUmkYylrDLx0Tabi9wRzA.jpeg)
-
 Apple nos ha sorprendido hoy enviando las invitaciones para un evento que tendra lugar el proximo 2 de diciembre en Nueva York, el motivo de este evento parece ser premiar las mejores aplicaciones y juegos del 2019.
 
 Hasta ahora la compañia publicaba una nota de prensa con el listado de las mejores apps y juegos del año.  

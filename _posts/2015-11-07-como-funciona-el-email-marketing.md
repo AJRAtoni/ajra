@@ -6,11 +6,7 @@ slug: como-funciona-el-email-marketing
 date: 2015-11-07T23:45:35.000Z
 ---
 
-### ¿Como funciona el Email Marketing?
-
 El Email Marketing puede parecer algo complicado y complejo, hay muchas cosas a tener en cuenta y muchos factores que pueden hacer que nuestra campaña de e-mailing salga bien o mal.
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*dh0ZZ177MAC9uj6rKC3OSw.png)
 
 ### EN EL MUNDO DEL EMAIL MARKETING TODO AFECTA
 

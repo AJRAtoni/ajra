@@ -6,8 +6,6 @@ slug: facebook-y-el-remarketing-en-el-mundoreal
 date: 2017-09-26T06:12:03.000Z
 ---
 
-### Facebook y el remarketing en el MundoReal.
-
 Parece que **Facebook** está llevando el significado del término remarketing a su máxima potencia.
 
 Y es que la compañía de **Zuckerberg** quiere mostrarte anuncios dependiendo de las tiendas que has visitado físicamente.

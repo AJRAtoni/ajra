@@ -6,10 +6,6 @@ slug: spark-version-2-0
 date: 2018-05-22T14:59:40.000Z
 ---
 
-### Spark version 2.0
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*fMI1sX37r2HeYPoZY4Q6rw.png)
-
 El correo electrónico está más vivo que nunca.
 Tres mil millones de personas en el planeta tienen correo electrónico y una tercera parte lo usan para el trabajo.
 

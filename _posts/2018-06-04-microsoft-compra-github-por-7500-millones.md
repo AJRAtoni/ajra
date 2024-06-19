@@ -6,10 +6,6 @@ slug: microsoft-compra-github-por-7500-millones
 date: 2018-06-04T16:00:58.000Z
 ---
 
-### Microsoft compra GitHub por $7.500 millones
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*BW6OtiLFj7pu57q_EzVJbw.jpeg)
-
 Satya Nadella (CEO de Microsoft) ha anunciado la compra de GitHub por $7.500 millones de dólares.
 
 Una cantidad bastante elevada si tenemos en cuenta que en 2015 fue valorada en $2.000 millones.

@@ -6,10 +6,6 @@ slug: squarespace-tips-007-personalizar-el-css-de-tu-web
 date: 2019-06-17T09:39:30.000Z
 ---
 
-### SQUARESPACE TIPS #007 — Personalizar el CSS de tu web
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/1200/1*6qIBKnjQ-S_JzR2uu8l17Q.jpeg)
-
 Crear tu página web con Squarespace es algo realmente sencillo y rápido.
 Tienen muchas plantillas y un avanzado editor de diseño, pero puede que en alguna ocasión quieras personalizar algo y este fuera de los ajustes que Squarespace ofrece.
 

@@ -6,10 +6,6 @@ slug: squarespace-tips-001-login-con-la-tecla-esc
 date: 2018-09-13T05:13:44.000Z
 ---
 
-### SQUARESPACE TIPS #001 — Login con la tecla ESC
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*v8n_JT1Z-jFKTK0lQlZDGw.png)
-
 Comenzamos aquí una serie de artículos en los que iremos publicando pequeños consejos y/o tips sobre desarrollo web en Squarespace.
 
 Comenzamos con algo muy sencillo y rápido.

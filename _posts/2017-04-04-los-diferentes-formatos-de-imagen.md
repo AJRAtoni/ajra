@@ -6,9 +6,6 @@ slug: los-diferentes-formatos-de-imagen
 date: 2017-04-04T03:02:12.000Z
 ---
 
-### Los diferentes formatos de imagen
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*cKL6JBqJIPVBFjwjVK74_A.jpeg)
 
 En el artículo de hoy os vamos a hablar de los diferentes formatos de imagen que podemos usar en nuestras webs, cuáles son sus diferencias y cuál es mejor usar en cada ocasión.
 

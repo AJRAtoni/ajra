@@ -6,9 +6,6 @@ slug: squarespace-tips-006-como-cambiar-el-favicon-de-tu-web
 date: 2019-06-11T02:09:32.000Z
 ---
 
-### SQUARESPACE TIPS #006 — Como cambiar el Favicon de tu web
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/1*IBrtaXpenAjVpotiikyM_A.png)
 
 El Favicon o icono de navegador es una pequeña imagen cuadrada que se muestra principalmente en las pestañas del navegador. Tener un Favicon personalizado hace que tu página sea reconocible en un navegador lleno de pestañas abiertas.
 

@@ -6,9 +6,6 @@ slug: warp-una-vpn-gratuita-para-smartphones
 date: 2019-09-25T17:52:51.000Z
 ---
 
-### Warp: una VPN gratuita para smartphones
-
-![Imagen relacionada](https://cdn-images-1.medium.com/max/800/0*RwqlATmy_BnEFqaY.png)
 
 CloudFlare ha lanzado su propio VPN gratuita que promete mejorar nuestra seguridad y privacidad en smartphones, se llama Warp.
 
