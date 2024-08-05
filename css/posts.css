@@ -97,4 +97,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
