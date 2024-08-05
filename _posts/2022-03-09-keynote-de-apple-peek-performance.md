@@ -1,7 +1,7 @@
 ---
 title: Keynote de Apple — Peek Performance
 description: Ya se ha celebrado la primera Keynote de Apple de este 2022. En las invitaciones al evento aparecía el título “Peek Performance” y durante…
-image: https://cdn-images-1.medium.com/max/800/0*aUXiMpVC8wM6PWYf.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: keynote-de-apple-peek-performance
 date: 2022-03-09T07:00:00.000Z
 ---
