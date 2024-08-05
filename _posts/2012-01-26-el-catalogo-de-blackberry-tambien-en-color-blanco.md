@@ -1,7 +1,7 @@
 ---
 title: El catalogo de BlackBerry también en color blanco.
 description: Los chicos de RIM han anunciado que durante el 2012 van a sacar una version de sus terminales en color blanco.
-image: https://cdn-images-1.medium.com/max/800/1*ewhizR7XTvruhdwcIdkfrg.jpeg
+image: https://ajra.es/images/posts/blackberry.webp
 slug: el-catalogo-de-blackberry-tambien-en-color-blanco
 date: 2012-01-26T21:12:39.000Z
 ---

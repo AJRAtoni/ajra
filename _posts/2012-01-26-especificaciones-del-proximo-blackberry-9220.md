@@ -1,7 +1,7 @@
 ---
 title: Especificaciones del próximo BlackBerry 9220
 description: Se han filtrado las características del próximo modelo Curve de BlackBerry.
-image: https://cdn-images-1.medium.com/max/800/0*-VR3l35yVGbJD5El
+image: https://ajra.es/images/posts/blackberry.webp
 slug: especificaciones-del-proximo-blackberry-9220
 date: 2012-01-26T20:56:12.000Z
 ---

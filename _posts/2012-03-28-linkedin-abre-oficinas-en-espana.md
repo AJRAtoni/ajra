@@ -1,7 +1,7 @@
 ---
 title: LinkedIn abre oficinas en España
 description: La red social LinkedIn cuenta ya con mas de 150 millones de usuarios.
-image: https://cdn-images-1.medium.com/max/800/1*E6CE0qBTXzk0Q2jbXqN4ow.png
+image: https://ajra.es/images/posts/linkedin.webp
 slug: linkedin-abre-oficinas-en-espana
 date: 2012-03-28T08:38:05.000Z
 ---

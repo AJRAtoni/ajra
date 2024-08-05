@@ -1,7 +1,7 @@
 ---
 title: WordPress 4.4 y sus novedades
 description: Desde hace un par de días esta disponible para descargar la nueva actualización oficial de WordPress.org - WordPress 4.4 Clifford.
-image: https://cdn-images-1.medium.com/max/800/1*MdwF5P-InEMtGi-YuWK0_A.png
+image: https://cdn-images-1.medium.com/max/800/0*AsSEtJih8iMySfcE.jpg
 slug: wordpress-4-4-y-sus-novedades
 date: 2015-12-10T23:21:19.000Z
 ---

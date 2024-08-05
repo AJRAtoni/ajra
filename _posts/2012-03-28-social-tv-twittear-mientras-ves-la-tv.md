@@ -1,7 +1,7 @@
 ---
 title: Social TV - Twittear mientras ves la TV
 description: Todos los hemos hecho en alguna ocasión… me refiero a Twittear o comentar en Facebook mientras vemos una película o serie. Cada vez es mas…
-image: https://cdn-images-1.medium.com/max/800/1*kO8Ell4XKvGOW0dnBlnqUQ.jpeg
+image: https://ajra.es/images/posts/socialtv.webp
 slug: social-tv-twittear-mientras-ves-la-tv
 date: 2012-03-28T20:56:02.000Z
 ---

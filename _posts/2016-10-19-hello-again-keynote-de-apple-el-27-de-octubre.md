@@ -1,7 +1,7 @@
 ---
 title: Hello Again — Keynote de Apple el 27 de Octubre
 description: Ya tenemos confirmación oficial por parte de Apple de cuando y donde se celebrará la próxima Keynote, y lo ha hecho llamándola Hello Again.
-image: https://cdn-images-1.medium.com/max/800/0*uPBWRxe8IvHyKkzg
+image: https://ajra.es/images/posts/apple.webp
 slug: hello-again-keynote-de-apple-el-27-de-octubre
 date: 2016-10-19T20:12:00.000Z
 ---
