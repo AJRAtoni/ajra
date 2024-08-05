@@ -26,7 +26,7 @@
         {
           "title": "Imagen Destacada",
           "name": "image",
-          "type": "image", 
+          "type": "image",
           "isPreviewImage": true
         },
         {
@@ -54,10 +54,6 @@
     {
       "title": "posts",
       "path": "[[workspace]]/_posts"
-    },
-    {
-      "title": "templates",
-      "path": "[[workspace]]/.frontmatter/templates"
     }
   ],
   "frontMatter.git.enabled": true
