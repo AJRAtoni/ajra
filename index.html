@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html lang="es">
 
@@ -114,19 +112,22 @@
                 <!-- Mis Articulos -->
                 <h2>Mis últimas publicaciones...</h2>
                 <div class="articulos">
+                    {% assign index = 1 %}
                     {% for post in site.posts limit:4 %}
-                    <a href="{{ post.url }}" target="_blank" class="caja caja-articulo" aria-label="Enlace a mi articulo">
+                    <a href="{{ post.url }}" target="_blank" class="caja caja-articulo articulo{{ index }}" aria-label="Enlace a mi articulo">
                         <div class="mitad">
                             <img class="logo-normal" src="images/AJRA.webp" alt="AJRA">
                             <div class="info">
                                 <h2 class="title">{{ post.title }}</h2>
+                                <p class="handle">news.ajra.es</p>
                             </div>
                         </div>
                         <div class="mitad">
-                            <img class="destacada" src="{{ post.featured_image }}" alt="articulo">
+                            <img class="destacada" src="{{ post.image | default: 'images/placeholder.webp' | relative_url }}" alt="articulo">                            
                         </div>
                     </a>
-                    {% endfor %}  
+                    {% assign index = index | plus: 1 %}
+                    {% endfor %}
                 </div>
 
                 <!-- Contenido Trabajos -->
