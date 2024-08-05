@@ -1,7 +1,7 @@
 ---
 title: Nuevos marcadores en Twitter
 description: Por fin se han puesto las pilas y han decidido implementar una nueva característica que los usuarios llevaban años esperando.
-image: https://cdn-images-1.medium.com/max/800/1*dqEo_eLHygr4zevddOMYpg.jpeg
+image: https://ajra.es/images/posts/twitter.webp
 slug: nuevos-marcadores-en-twitter
 date: 2018-03-01T05:00:00.000Z
 ---

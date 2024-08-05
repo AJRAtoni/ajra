@@ -1,7 +1,7 @@
 ---
 title: Apple lanza “Sign in with Apple”
 description: La semana pasada se celebró la WWDC 2019 donde Apple presentó cantidad de cosas interesantes, desde iPadOS, iOS 13, macOS Catalina, etc……
-image: 
+image: https://ajra.es/images/posts/apple.webp
 slug: apple-lanza-sign-in-with-apple
 date: 2019-06-13T03:39:39.000Z
 ---

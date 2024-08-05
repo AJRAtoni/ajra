@@ -1,7 +1,7 @@
 ---
 title: Twitter Video, ahora hasta 140 segundos.
 description: Twitter desde sus inicios ha tenido un problema que ha ido arrastrando hasta el día de hoy, su monetización.
-image: https://cdn-images-1.medium.com/max/800/1*CobjGBMIvxQXCNkGRM_7mQ.png
+image: https://ajra.es/images/posts/twitter.webp
 slug: twitter-video-ahora-hasta-140-segundos
 date: 2016-06-29T04:38:37.000Z
 ---
