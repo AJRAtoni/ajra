@@ -21,11 +21,6 @@ a:hover {text-decoration: underline !important;}
     margin: auto;
     padding-bottom: 5rem;
 }
-.content-blog {
-    max-width: 850px;
-    margin: auto;
-    padding-bottom: 5rem;
-}
 .post-title {
     font-size: 3rem;
     line-height: 1.07143;
@@ -54,21 +49,6 @@ footer {
     font-size: 13px;
     line-height: 2rem;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  .grid-item {
-    text-align: center;
-  }
-  .grid-item img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 15px;
-    margin-bottom: 1.5rem;
-  }
 
 
 

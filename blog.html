@@ -28,7 +28,7 @@
     <div class="post-cabecera">
             <img src="{{ 'images/blog.webp' | relative_url }}" class="post-image">
     </div>
-    <div class="content">
+    <div class="content-blog">
         {% assign previous_month = nil %}
         {% for post in site.posts %}
           {% capture current_month %}{{ post.date | date: "%B" }}{% endcapture %}
@@ -76,7 +76,11 @@
 </html>
 <style>
     h2:not(:first-child) {margin-top: 2.5rem;}
-
+  .content-blog {
+    max-width: 850px;
+    margin: auto;
+    padding-bottom: 5rem;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -87,8 +91,10 @@
   }
   .grid-item img {
     width: 100%;
-    height: 200px;
+    height: auto;
     object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
   }
   h2:not(:first-child) {
     margin-top: 2.5rem;
