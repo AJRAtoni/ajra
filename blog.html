@@ -59,7 +59,7 @@
           <div class="grid-item">
             <a href="{{ post.url }}">
               <img src="{{ post.image | default: 'ruta/a/imagen/por/defecto.jpg' | relative_url }}" alt="{{ post.title }}">
-              <h3>{{ post.title }}</h3>
+              <h3 class="post-title">{{ post.title }}</h3>
             </a>
           </div>
         {% endfor %}
@@ -76,27 +76,4 @@
 </html>
 <style>
     h2:not(:first-child) {margin-top: 2.5rem;}
-  .content-blog {
-    max-width: 850px;
-    margin: auto;
-    padding-bottom: 5rem;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  .grid-item {
-    text-align: center;
-  }
-  .grid-item img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 15px;
-    margin-bottom: 1.5rem;
-  }
-  h2:not(:first-child) {
-    margin-top: 2.5rem;
-  }
 </style>
