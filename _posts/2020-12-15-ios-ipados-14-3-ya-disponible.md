@@ -1,7 +1,7 @@
 ---
 title: iOS & iPadOS 14.3 ya disponible
 description: Apple ha lanzado la actualización de 14.3 para iOS y iPadOS.
-image: https://cdn-images-1.medium.com/max/800/0*eCkVfrLZ5Jls31RZ.png
+image: https://ajra.es/images/posts/apple.webp
 slug: ios-ipados-14-3-ya-disponible
 date: 2020-12-15T15:50:03.958Z
 ---

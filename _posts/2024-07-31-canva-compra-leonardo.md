@@ -1,7 +1,7 @@
 ---
 title: Canva compra Leonardo AI
 description: Canva ha comprado Leonardo AI, la conocida plataforma de inteligencia artificial.
-image: /images/posts/canva-leonardo.webp
+image: https://ajra.es/images/posts/canva-leonardo.webp
 slug: canva-compra-leonardo-ai
 date: 2024-07-31
 ---

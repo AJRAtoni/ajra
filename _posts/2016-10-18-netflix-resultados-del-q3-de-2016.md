@@ -1,7 +1,7 @@
 ---
 title: Netflix — Resultados del Q3 de 2016
 description: Netflix ha presentado sus resultados económicos del 3 trimestre de 2016. La empresa esperaba ganar 2,3 millones de usuarios nuevos y han…
-image: https://cdn-images-1.medium.com/max/800/0*Yb1KR8IUgWJxBEJh
+image: https://ajra.es/images/posts/netflix.webp
 slug: netflix-resultados-del-q3-de-2016
 date: 2016-10-18T20:07:00.000Z
 ---

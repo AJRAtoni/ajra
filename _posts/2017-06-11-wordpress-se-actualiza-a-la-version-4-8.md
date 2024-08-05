@@ -1,7 +1,7 @@
 ---
 title: WordPress se actualiza a la versión 4.8
 description: Los chicos de Automattic han actualizado WordPress a la version 4.8 y estas son las novedades que incorpora.
-image: https://cdn-images-1.medium.com/max/800/1*LNVSki1-OEYiH8kfFOP5qA.png
+image: https://cdn-images-1.medium.com/max/800/0*AsSEtJih8iMySfcE.jpg
 slug: wordpress-se-actualiza-a-la-version-4-8
 date: 2017-06-11T08:00:00.000Z
 ---

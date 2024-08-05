@@ -1,7 +1,7 @@
 ---
 title: Lo que me gustaría ver en iPadOS 15
 description: Quedan solo un par de días para que se celebre la WWDC21 en la que Apple presentará, entre otras cosas, la beta de iPadOS 15.
-image: https://cdn-images-1.medium.com/max/800/0*3sKK9MJsRNzuLXrx.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: lo-que-me-gustaria-ver-en-ipados-15
 date: 2021-06-04T20:12:35.359Z
 ---

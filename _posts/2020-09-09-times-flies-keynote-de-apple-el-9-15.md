@@ -1,7 +1,7 @@
 ---
 title: Times Flies — Keynote de Apple el 9.15
 description: Apple ha enviado las invitaciones para su próxima Keynote.
-image: https://cdn-images-1.medium.com/max/800/0*Xpe_R-jXKrc4YdJ-.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: times-flies-keynote-de-apple-el-9-15
 date: 2020-09-09T15:44:49.101Z
 ---

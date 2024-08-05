@@ -1,7 +1,7 @@
 ---
 title: Apple “Spring Loaded”
 description: Apple celebró la “Spring Loaded”, la Keynote de primavera.
-image: https://cdn-images-1.medium.com/max/800/0*rcsERIjMUNIiNMy_.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: apple-spring-loaded
 date: 2021-05-13T13:46:55.406Z
 ---

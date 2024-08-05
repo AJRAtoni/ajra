@@ -1,7 +1,7 @@
 ---
 title: El Coronavirus también afecta a Netflix
 description: Netflix ha decidido que durante los próximos 30 días va a reducir la calidad de sus streamings en Europa.
-image: https://cdn-images-1.medium.com/max/800/0*cqQB2bhD4JYxACxZ.png
+image: https://ajra.es/images/posts/netflix.webp
 slug: el-coronavirus-tambien-afecta-a-netflix
 date: 2020-03-19T23:24:15.833Z
 ---

@@ -1,7 +1,7 @@
 ---
 title: Keynote de Apple el 13 de Octubre — Hi, Speed.
 description: Apple por fin ha enviado las invitaciones a su próximo evento, que tendrá lugar el 13 de octubre. Aquí te cuento todo lo que podemos esperar.
-image: https://cdn-images-1.medium.com/max/800/0*TN9z9RC_Wk13Ix7P.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: keynote-de-apple-el-13-de-octubre-hi-speed
 date: 2020-10-06T16:45:46.730Z
 ---

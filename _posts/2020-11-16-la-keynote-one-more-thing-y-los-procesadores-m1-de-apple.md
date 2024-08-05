@@ -1,7 +1,7 @@
 ---
 title: La Keynote “One More Thing” y los procesadores M1 de Apple
 description: En la Keynote One More Thing Apple presento su nuevo procesador M1.
-image: https://cdn-images-1.medium.com/max/800/0*r7AcK5-v4Szl77NP.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: la-keynote-one-more-thing-y-los-procesadores-m1-de-apple
 date: 2020-11-16T22:35:21.197Z
 ---

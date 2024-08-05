@@ -1,7 +1,7 @@
 ---
 title: Lo que me gustaría ver en los sistemas operativos de Apple
 description: Hoy dará comienzo la WWDC 23 y como cada año he ido tomando algunas notas de lo que me gustaría que añadiesen a las nuevas versiones de…
-image: https://cdn-images-1.medium.com/max/800/1*MZ_NnvrXtZVrIxmNcJff7w@2x.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: lo-que-me-gustaria-ver-en-los-sistemas-operativos-de-apple
 date: 2023-06-05T04:34:03.112Z
 ---

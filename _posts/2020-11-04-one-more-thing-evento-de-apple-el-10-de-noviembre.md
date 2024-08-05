@@ -1,7 +1,7 @@
 ---
 title:  One More Thing — Evento de Apple el 10 de noviembre
 description: Apple ha anunciado su próximo gran evento, una Keynote que tendrá lugar el próximo 10 de noviembre.
-image: https://cdn-images-1.medium.com/max/800/0*pu7nF2IgXPxqeGkS.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: one-more-thing-evento-de-apple-el-10-de-noviembre
 date: 2020-11-04T15:59:16.263Z
 ---

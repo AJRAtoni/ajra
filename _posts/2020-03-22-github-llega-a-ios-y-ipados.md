@@ -1,7 +1,7 @@
 ---
 title: GitHub llega a iOS & iPadOS
 description: Los desarrolladores estamos de enhorabuena, GitHub ha lanzado su aplicación oficial para iOS & iPadOS.
-image: https://cdn-images-1.medium.com/max/800/0*dU8S6_pLtu2NGVGK.png
+image: https://ajra.es/images/posts/github.webp
 slug: github-llega-a-ios-y-ipados
 date: 2020-03-22T20:01:21.057Z
 ---

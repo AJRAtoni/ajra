@@ -1,7 +1,7 @@
 ---
 title: Como cambiar el Favicon de tu pagina de WordPress Genesis.
 description: ¿No sabes como cambiar el favicon en tu pagina de WordPress con Genesis?
-image: 
+image: https://cdn-images-1.medium.com/max/800/0*AsSEtJih8iMySfcE.jpg
 slug: como-cambiar-el-favicon-de-tu-pagina-de-wordpress-genesis
 date: 2015-02-06T20:05:53.000Z
 ---

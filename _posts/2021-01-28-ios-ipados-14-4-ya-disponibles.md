@@ -1,7 +1,7 @@
 ---
 title: iOS & iPadOS 14.4 ya disponibles
 description: Apple ha lanzado hoy la actualización a iOS & iPadOS a la versión 14.4.
-image: https://cdn-images-1.medium.com/max/800/0*lRsK4jdpmwEyx5jl.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: ios-ipados-14-4-ya-disponibles
 date: 2021-01-28T20:55:48.313Z
 ---

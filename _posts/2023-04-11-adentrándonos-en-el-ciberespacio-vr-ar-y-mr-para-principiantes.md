@@ -1,7 +1,7 @@
 ---
 title: Adentrándonos en el ciberespacio - VR principiantes 🕶️
 description: Hoy nos embarcamos en la primera etapa de nuestra aventura por el mundo de las Realidades Expandidas.
-image: /images/posts/vr.webp
+image: https://ajra.es/images/posts/vr.webp
 slug: adentrándonos-en-el-ciberespacio-vr-ar-y-mr-para-principiantes
 date: 2023-04-11T19:05:37.404Z
 ---

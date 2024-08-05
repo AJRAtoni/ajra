@@ -1,7 +1,7 @@
 ---
 title: Apple — Time for a recap
 description: Ya ha pasado la Keynote de Apple y seguro que ya habéis visto todas las novedades que se presentaron.
-image: https://cdn-images-1.medium.com/max/800/0*RijByLxgM9wKOLSK.png
+image: https://ajra.es/images/posts/apple.webp
 slug: apple-time-for-a-recap
 date: 2020-09-17T15:17:10.223Z
 ---

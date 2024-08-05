@@ -1,7 +1,7 @@
 ---
 title: WordPress se actualiza a la version 5.2.4
 description: ¡WordPress 5.2.4 ya está disponible! Esta versión corrige 6 problemas de seguridad.
-image: https://cdn-images-1.medium.com/max/1200/1*zQ3AbeC_u3p7aRqfIiuETg.png
+image: https://cdn-images-1.medium.com/max/800/0*AsSEtJih8iMySfcE.jpg
 slug: wordpress-se-actualiza-a-la-version-5-2-4
 date: 2019-10-16T17:38:00.000Z
 ---

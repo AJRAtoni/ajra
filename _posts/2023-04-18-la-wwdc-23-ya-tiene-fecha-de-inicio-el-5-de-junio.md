@@ -1,7 +1,7 @@
 ---
 title: La WWDC 23 ya tiene fecha de inicio, el 5 de junio
 description: Apple acaba de anunciar la fecha de inicio para la WWDC 2023.
-image: /images/posts/apple.webp
+image: https://ajra.es/images/posts/apple.webp
 slug: la-wwdc-23-ya-tiene-fecha-de-inicio-el-5-de-junio
 date: 2023-04-18T15:48:38.113Z
 ---

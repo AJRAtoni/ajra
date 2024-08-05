@@ -1,7 +1,7 @@
 ---
 title: Meta lanza AI Studio
 description: AI Studio de Meta permite a los usuarios crear chatbots de IA personalizados para redes sociales como Instagram, Messenger y WhatsApp.
-image: /images/posts/meta.webp
+image: https://ajra.es/images/posts/meta.webp
 slug: meta-ai-studio
 date: 2024-08-02
 ---

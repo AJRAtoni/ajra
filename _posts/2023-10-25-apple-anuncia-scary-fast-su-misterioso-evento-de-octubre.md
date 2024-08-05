@@ -1,7 +1,7 @@
 ---
 title: Apple anuncia “Scary Fast”, su misterioso evento de Octubre
 description: Apple ha dejado a todos con la boca abierta con el anuncio de su próximo evento titulado “Scary Fast”.
-image: https://cdn-images-1.medium.com/max/800/1*94PS8jLQbOhFo6uj1irlMw@2x.jpeg
+image: https://ajra.es/images/posts/apple.webp
 slug: apple-anuncia-scary-fast-su-misterioso-evento-de-octubre
 date: 2023-10-25T03:40:39.946Z
 ---
