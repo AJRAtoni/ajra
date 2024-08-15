@@ -33,6 +33,6 @@ Para creadores de contenido, artistas digitales, o cualquier persona interesada 
 
 En resumen, **Stability Matrix** es una herramienta imprescindible para aquellos que buscan aprovechar el poder de las plataformas de generación de imágenes mediante IA sin complicaciones. Si estás buscando una manera más eficiente y sencilla de utilizar estas tecnologías, **Stability Matrix** es la respuesta.
 
-¡Explora el proyecto en su (repositorio de GitHub de Stability Matrix)[https://github.com/LykosAI/StabilityMatrix] y descubre cómo puede transformar tu flujo de trabajo creativo!
+¡Explora el proyecto en su [repositorio de GitHub de Stability Matrix](https://github.com/LykosAI/StabilityMatrix) y descubre cómo puede transformar tu flujo de trabajo creativo!
 
 
