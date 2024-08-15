@@ -12,6 +12,9 @@ date: 2024-08-08
 
 **Stability Matrix** es un proyecto de código abierto que centraliza la instalación y gestión de diversas plataformas de generación de imágenes basadas en IA. Desarrollado por **LykosAI**, esta herramienta automatiza gran parte del trabajo necesario para poner en marcha sistemas como **Automatic1111**, **Fooocus**, **ComfyUI** y otras plataformas populares. En esencia, es una **solución todo-en-uno** que facilita el acceso a la poderosa tecnología de generación de imágenes sin tener que enfrentarse a complicados procesos de configuración.
 
+![Stability Matrix](https://camo.githubusercontent.com/9d9ce18e32f6234a56f5125d96e7ebc56dd44158b2de6606ffea8d546be844fe/68747470733a2f2f63646e2e6c796b6f732e61692f7374617469632f736d2d62616e6e65722d726f756e6465642e77656270)
+
+
 ## Instalación y configuración simplificadas
 
 Uno de los mayores desafíos al trabajar con plataformas de generación de imágenes con IA es el proceso de instalación y configuración. Estas plataformas a menudo requieren la instalación de software adicional, la gestión de dependencias y la configuración de parámetros específicos. **Stability Matrix** automatiza estos pasos, proporcionando un entorno preconfigurado que está listo para usar. Esto significa que los usuarios pueden concentrarse en crear contenido visual en lugar de perder tiempo con la configuración técnica.
