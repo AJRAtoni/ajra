@@ -151,8 +151,56 @@
                 </div>
 
                 <!-- Estoy viendo -->
-                <h2>¿Qué estoy viendo?</h2>
-                <div id="trakt-watching" class="tv"></div>                
+                <h2>¿Que estoy viendo?</h2>
+                <div class="tv">
+                    <a href="https://www.tvtime.com/es/user/5055188/profile" target="_blank" class="caja tv1"
+                        aria-label="Enlace a mis series">
+                        <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
+                        <div class="info">
+                            <h2 class="title black">TV Time</h2>
+                            <p class="handle black">@AJRA</p>
+                        </div>
+                    </a>
+                    <a href="https://www.tvtime.com/show/355567" target="_blank" class="caja caja-tv tv2"
+                        aria-label="Enlace a mis series">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
+                            <div class="info">
+                                <h2 class="title">THE BOYS</h2>
+                                <p class="handle">Prime Video</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="poster" src="images/serie1.webp" loading="lazy" alt="Poster">
+                        </div>
+                    </a>
+                    <a href="https://www.tvtime.com/es/show/393197" target="_blank" class="caja caja-tv tv3"
+                        aria-label="Enlace a mis series">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
+                            <div class="info">
+                                <h2 class="title">THE ACOLYTE</h2>
+                                <p class="handle">Disney+</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="poster" src="images/serie2.webp" loading="lazy" alt="Poster">
+                        </div>
+                    </a>
+                    <a href="https://www.tvtime.com/show/393159" target="_blank" class="caja caja-tv tv4"
+                        aria-label="Enlace a mis series">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/tvt_logo.png" loading="lazy" alt="TVTime">
+                            <div class="info">
+                                <h2 class="title">DARK MATTER</h2>
+                                <p class="handle">Apple TV+</p>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="poster" src="images/serie3.webp" loading="lazy" alt="Poster">
+                        </div>
+                    </a>
+                </div>
 
                 <!-- Estoy jugando -->
                 <h2>¿A que estoy jugando?</h2>
@@ -196,55 +244,5 @@
     </div>
     <footer>2024 &copy; Desarrollado con 🧠 & 💛 por &lt;/AJRA&gt; </footer>
 </body>
-
-
-
-<script>
-    const TRAKT_API_KEY = '12e6cceab0af62149db052e4c395973bc50dbaa1236fe6b71254de2f54d0453d'; 
-
-    // Función para hacer la llamada a la API de Trakt
-    async function fetchWatching() {
-      try {
-        const response = await fetch('https://api.trakt.tv/users/ajra/watching', {
-          headers: {
-            'Content-Type': 'application/json',
-            'trakt-api-version': '2',
-            'trakt-api-key': TRAKT_API_KEY
-          }
-        });
-        const data = await response.json();
-  
-        if (data.show) {
-          const container = document.getElementById('trakt-watching');
-          container.innerHTML = `
-            <a href="https://trakt.tv/shows/${data.show.ids.slug}" target="_blank" class="caja caja-tv tv-current" aria-label="Enlace a la serie que estoy viendo">
-              <div class="mitad">
-                <img class="logo-normal" src="images/tvt_logo.png" alt="Trakt Logo">
-                <div class="info">
-                  <h2 class="title">${data.show.title}</h2>
-                  <p class="handle">${data.show.network}</p>
-                </div>
-              </div>
-              <div class="mitad">
-                <img class="poster" src="https://image.tmdb.org/t/p/w500${data.show.poster_path}" alt="Poster de la serie">
-              </div>
-            </a>
-          `;
-        } else {
-          document.getElementById('trakt-watching').innerHTML = '<p>No estás viendo nada ahora mismo.</p>';
-        }
-      } catch (error) {
-        console.error('Error al obtener los datos de Trakt:', error);
-        document.getElementById('trakt-watching').innerHTML = '<p>Error al cargar los datos.</p>';
-      }
-    }
-  
-    // Ejecutar la función al cargar la página
-    document.addEventListener('DOMContentLoaded', fetchWatching);
-  </script>
-  
-
-
-
 
 </html>
