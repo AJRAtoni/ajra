@@ -1,7 +1,7 @@
 const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
 const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
 const eventsContainer = document.getElementById('events');
-const placeholderimagen = 'img/eventos.png';
+const placeholderimagen = 'images/eventos/eventos.png';
 
 let allEvents = [];
 
