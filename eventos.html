@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f0f0f0">
+    <title>Eventos by AJRA</title>
+    <link rel="icon" type="image/x-icon" href="images/eventos/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/AJRA.webp">
+    <meta name="description" content="EVENTOS by AJRA">
+    <meta property="og:title" content="EVENTOS by AJRA">
+    <meta property="og:description" content="Calendario de eventos de AJRA">
+    <meta property="og:image" content="images/eventos/eventos.png">
+    <meta property="og:url" content="https://eventos.ajra.es">
+    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398"
+        async></script>
+    <link href="eventos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <a href="https://ajra.es">
+            <img src="images/AJRA.webp" alt="AJRA" class="avatar">
+        </a>
+    </header>
+    <div class="home">
+        <img src="images/eventos/logo.png" alt="AJRA" style="border-radius: 50%; margin-bottom: 25px;">
+        <h1>CALENDARIO DE EVENTOS</h1>
+        <h2>Listado de eventos de interes para AJRA</h2>
+        <a
+            href="news.ajra.es">
+            <h2 class="suscribirse">SUSCRIBETE</h2>
+        </a>
+    </div>
+    <div class="filter-buttons">
+        <button onclick="filterEvents('todos')" class="botonesfiltro">TODOS</button>
+        <button onclick="filterEvents('cineytv')" class="botonesfiltro">CINEYTV</button>
+        <button onclick="filterEvents('curiosidades')" class="botonesfiltro">CURIOSIDADES</button>
+        <button onclick="filterEvents('deportes')" class="botonesfiltro">DEPORTES</button>
+        <button onclick="filterEvents('festividades')" class="botonesfiltro">FESTIVIDADES</button>
+        <button onclick="filterEvents('tecnologia')" class="botonesfiltro">TECNOLOGIA</button>
+        <button onclick="filterEvents('videojuegos')" class="botonesfiltro">VIDEOJUEGOS</button>
+        <input type="text" id="searchInput" class="buscador" oninput="searchEvents()" placeholder="Buscar evento...">
+    </div>
+    <div id="events" class="row"></div>
+    <footer>2023 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
+            style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
+<script src="eventos.js"></script>
