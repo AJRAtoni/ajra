@@ -1,7 +1,7 @@
 ---
 title: Halide ahora disponible para iPad
 description: Los chicos de Halide acaban de anunciar algo grande. Algo 4 veces más grande que todo lo que habían anunciado hasta ahora.
-
+image: https://ajra.es/images/posts/halide.webp
 slug: halide-ahora-disponible-para-ipad
 date: 2021-05-26T15:50:55.031Z
 ---
