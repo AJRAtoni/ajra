@@ -1,5 +1,5 @@
 ---
-title: Apple deslumbra con novedades en su evento "It's Glowtime"
+title: Apple celebra su evento "It's Glowtime"
 description: Apple ha vuelto a sorprender al mundo tecnológico con su esperado evento anual de presentacion de los iPhone.
 image: https://ajra.es/images/posts/apple.webp
 slug: apple-glowtime
