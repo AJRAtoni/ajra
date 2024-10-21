@@ -1,9 +1,9 @@
-const initialVerstappenPoints = 331;
-const initialNorrisPoints = 279;
+const initialVerstappenPoints = 354;
+const initialNorrisPoints = 297;
 const races = [
-    "EEUU", "Mexico", "Brazil", "Las Vegas", "Qatar", "Abu Dhabi"
+    "Mexico", "Brazil", "Las Vegas", "Qatar", "Abu Dhabi"
 ];
-const sprints = ["EEUU", "Brazil", "Qatar"];
+const sprints = ["Brazil", "Qatar"];
 
 let racePositions = races.map(() => ({ verstappen: '', norris: '' }));
 let sprintPositions = sprints.map(() => ({ verstappen: '', norris: '' }));
