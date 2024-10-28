@@ -1,7 +1,7 @@
-const initialVerstappenPoints = 354;
-const initialNorrisPoints = 297;
+const initialVerstappenPoints = 362;
+const initialNorrisPoints = 315;
 const races = [
-    "Mexico", "Brazil", "Las Vegas", "Qatar", "Abu Dhabi"
+    "Brazil", "Las Vegas", "Qatar", "Abu Dhabi"
 ];
 const sprints = ["Brazil", "Qatar"];
 
