@@ -38,12 +38,12 @@
                 <!-- Contenido Redes Sociales -->
                 <h2>Puedes encontrarme en...</h2>
                 <div class="sociales">
-                    <a href="https://mastodon.social/@ajra" target="_blank" class="caja mastodon"
-                        aria-label="Enlace a mi perfil en Mastodon">
-                        <img class="logo-blanco" src="images/mastodon.svg" alt="Mastodon Logo">
+                    <a href="https://www.threads.net/@ajra_toni" target="_blank" class="caja threads"
+                        aria-label="Enlace a mi perfil en Threads">
+                        <img class="logo-blanco" src="images/threads.svg" alt="Threads Logo">
                         <div class="info">
-                            <h2 class="title">Mastodon</h2>
-                            <p class="handle">@AJRA</p>
+                            <h2 class="title">Threads</h2>
+                            <p class="handle">@AJRA_TONI</p>
                         </div>
                     </a>
 
@@ -56,23 +56,26 @@
                         </div>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/ajratoni/" target="_blank" class="caja linkedin"
-                        aria-label="Enlace a mi perfil en Linkedin">
-                        <img class="logo-blanco" src="images/linkedin.svg" alt="LinkedIn Logo">
-                        <div class="info">
-                            <h2 class="title">LinkedIn</h2>
-                            <p class="handle">@AJRATONI</p>
-                        </div>
+                    <a href="mailto:info@ajra.es" target="_blank" class="caja email" aria-label="Enlace a mi email">
+                    <img class="logo-blanco" src="images/email.svg" alt="Email Logo">
+                    <div class="info black">
+                        <h2 class="title">Email</h2>
+                        <p class="handle">@AJRA.ES</p>
+                    </div>
                     </a>
 
-                    <a href="https://github.com/ajratoni/" target="_blank" class="caja github"
-                        aria-label="Enlace a mi perfil en GitHub">
-                        <img class="logo-blanco" src="images/github.svg" alt="GitHub Logo">
-                        <div class="info">
-                            <h2 class="title">GitHub</h2>
+
+                    <a href="https://news.ajra.es" target="_blank" class="caja substack"
+                        aria-label="Enlace a mi newsletter">
+                        <img class="logo-blanco" src="images/substack.svg" alt="Substack Logo">
+                        <div class="info black">
+                            <h2 class="title">Substack</h2>
                             <p class="handle">@AJRA</p>
                         </div>
                     </a>
+
+
+
 
                     <a href="https://www.pinterest.com/ajra/" target="_blank" class="caja pinterest"
                         aria-label="Enlace a mi perfil en Pinterest">
@@ -83,28 +86,31 @@
                         </div>
                     </a>
 
-                    <a href="https://www.threads.net/@ajra_toni" target="_blank" class="caja threads"
-                        aria-label="Enlace a mi perfil en Threads">
-                        <img class="logo-normal" src="images/threads.svg" alt="threads Logo">
-                        <div class="info black">
-                            <h2 class="title black">Threads</h2>
-                            <p class="handle black">@AJRA_TONI</p>
+                    <a href="https://podcasters.spotify.com/pod/show/ajra" target="_blank" class="caja spotify"
+                        aria-label="Enlace a mi perfil en Spotify">
+                        <img class="logo-blanco" src="images/spotify.svg" alt="Spotify Logo">
+                        <div class="info">
+                            <h2 class="title">Podcast</h2>
+                            <p class="handle">AJRA</p>
                         </div>
                     </a>
 
-                    <a href="mailto:info@ajra.es" target="_blank" class="caja email" aria-label="Enlace a mi email">
-                        <img class="logo-blanco" src="images/email.svg" alt="Email Logo">
-                        <div class="info black">
-                            <h2 class="title">Email</h2>
-                            <p class="handle">@AJRA</p>
+
+                    <a href="https://www.linkedin.com/in/ajratoni/" target="_blank" class="caja linkedin"
+                        aria-label="Enlace a mi perfil en Linkedin">
+                        <img class="logo-blanco" src="images/linkedin.svg" alt="LinkedIn Logo">
+                        <div class="info">
+                            <h2 class="title">LinkedIn</h2>
+                            <p class="handle">@AJRATONI</p>
                         </div>
                     </a>
 
-                    <a href="https://read.cv/ajra" target="_blank" class="caja read"
-                        aria-label="Enlace a mi perfil en Read">
-                        <img class="logo-blanco" src="images/read.svg" alt="Read Logo">
-                        <div class="info black">
-                            <h2 class="title">Read</h2>
+
+                    <a href="https://github.com/ajratoni/" target="_blank" class="caja github"
+                        aria-label="Enlace a mi perfil en GitHub">
+                        <img class="logo-blanco" src="images/github.svg" alt="GitHub Logo">
+                        <div class="info">
+                            <h2 class="title">GitHub</h2>
                             <p class="handle">@AJRA</p>
                         </div>
                     </a>
@@ -116,7 +122,8 @@
                 <div class="articulos">
                     {% assign index = 1 %}
                     {% for post in site.posts limit:4 %}
-                    <a href="{{ post.url }}" class="caja caja-articulo articulo{{ index }}" aria-label="Enlace a mi articulo">
+                    <a href="{{ post.url }}" class="caja caja-articulo articulo{{ index }}"
+                        aria-label="Enlace a mi articulo">
                         <div class="mitad">
                             <img class="logo-normal" src="images/AJRA.webp" alt="AJRA">
                             <div class="info">
@@ -124,7 +131,9 @@
                             </div>
                         </div>
                         <div class="mitad">
-                            <img class="destacada" src="{{ post.image | default: 'images/placeholder.webp' | relative_url }}" alt="articulo">                            
+                            <img class="destacada"
+                                src="{{ post.image | default: 'images/placeholder.webp' | relative_url }}"
+                                alt="articulo">
                         </div>
                     </a>
                     {% assign index = index | plus: 1 %}
@@ -141,13 +150,11 @@
                             <p class="handle">@AJRA</p>
                         </div>
                     </a>
-                    <a href="http://marvelstudios.carrd.co" class="caja trabajo2"
-                        aria-label="Enlace a mi trabajo"></a>
+                    <a href="http://marvelstudios.carrd.co" class="caja trabajo2" aria-label="Enlace a mi trabajo"></a>
                     <a href="https://ajra.es/recursos" class="caja trabajo3" aria-label="Enlace a mi trabajo"></a>
                     <a href="https://atifonline.org/" class="caja trabajo4" aria-label="Enlace a mi trabajo"></a>
                     <a href="https://dcuniverse.carrd.co/" class="caja trabajo5" aria-label="Enlace a mi trabajo"></a>
-                    <a href="https://ajra.es/eventos" class="caja trabajo6"
-                        aria-label="Enlace a mi trabajo"></a>
+                    <a href="https://ajra.es/eventos" class="caja trabajo6" aria-label="Enlace a mi trabajo"></a>
                 </div>
 
                 <!-- Estoy viendo -->
@@ -212,7 +219,7 @@
                         aria-label="Enlace a mis juegos"><img src="images/juego1.webp" class="juego2" loading="lazy"
                             alt="No Man's Sky"></a>
                     <a href="https://gametrack.app/game/3225" class="caja caja-juego"
-                            aria-label="Enlace a mis juegos"><img src="images/juego2.webp" class="juego3" loading="lazy"
+                        aria-label="Enlace a mis juegos"><img src="images/juego2.webp" class="juego3" loading="lazy"
                             alt="iRacing"></a>
                     <a href="https://gametrack.app/game/251833" class="caja caja-juego"
                         aria-label="Enlace a mis juegos"><img src="images/juego3.webp" class="juego4" loading="lazy"
