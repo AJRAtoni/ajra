@@ -1,5 +1,5 @@
-const initialVerstappenPoints = 368; // 362 + 6 puntos por el 3er lugar en el sprint
-const initialNorrisPoints = 323; // 315 + 8 puntos por la victoria en el sprint
+const initialVerstappenPoints = 367; 
+const initialNorrisPoints = 323;
 const races = [
     "Brazil", "Las Vegas", "Qatar", "Abu Dhabi"
 ];
@@ -36,7 +36,6 @@ function updateResults() {
     const remainingEvents = races.length + sprints.length;
     const averagePointsNeeded = remainingEvents > 0 ? (Math.abs(pointDifference) / remainingEvents).toFixed(2) : 0;
 
-    // Actualización de elementos de puntos y diferencia
     const verstappenPointsElem = document.getElementById('verstappen-points');
     const norrisPointsElem = document.getElementById('norris-points');
     const pointDifferenceElem = document.getElementById('point-difference');
