@@ -82,4 +82,23 @@ function createInputRow(container, events, isRace) {
                 racePositions[index].norris = e.target.value;
             } else {
                 sprintPositions[index].norris = e.target.value;
-            
+            }
+            updateResults();
+        });
+
+        row.appendChild(label);
+        row.appendChild(verstappenInput);
+        row.appendChild(norrisInput);
+        container.appendChild(row);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const racesContainer = document.getElementById('races-container');
+    const sprintsContainer = document.getElementById('sprints-container');
+
+    createInputRow(racesContainer, races, true);
+    createInputRow(sprintsContainer, sprints, false);
+
+    updateResults();
+});
