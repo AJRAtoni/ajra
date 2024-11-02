@@ -1,9 +1,9 @@
-const initialVerstappenPoints = 362;
-const initialNorrisPoints = 315;
+const initialVerstappenPoints = 368; // 362 + 6 puntos por el 3er lugar en el sprint
+const initialNorrisPoints = 323; // 315 + 8 puntos por la victoria en el sprint
 const races = [
     "Brazil", "Las Vegas", "Qatar", "Abu Dhabi"
 ];
-const sprints = ["Brazil", "Qatar"];
+const sprints = ["Qatar"];
 
 let racePositions = races.map(() => ({ verstappen: '', norris: '' }));
 let sprintPositions = sprints.map(() => ({ verstappen: '', norris: '' }));
@@ -82,23 +82,4 @@ function createInputRow(container, events, isRace) {
                 racePositions[index].norris = e.target.value;
             } else {
                 sprintPositions[index].norris = e.target.value;
-            }
-            updateResults();
-        });
-
-        row.appendChild(label);
-        row.appendChild(verstappenInput);
-        row.appendChild(norrisInput);
-        container.appendChild(row);
-    });
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    const racesContainer = document.getElementById('races-container');
-    const sprintsContainer = document.getElementById('sprints-container');
-
-    createInputRow(racesContainer, races, true);
-    createInputRow(sprintsContainer, sprints, false);
-
-    updateResults();
-});
+            
