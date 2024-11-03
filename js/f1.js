@@ -1,7 +1,7 @@
-const initialVerstappenPoints = 367; 
-const initialNorrisPoints = 323;
+const initialVerstappenPoints = 393;
+const initialNorrisPoints = 331;
 const races = [
-    "Brazil", "Las Vegas", "Qatar", "Abu Dhabi"
+    "Las Vegas", "Qatar", "Abu Dhabi"
 ];
 const sprints = ["Qatar"];
 
@@ -34,31 +34,22 @@ function updateResults() {
     const { verstappenTotal, norrisTotal } = calculateTotalPoints();
     const pointDifference = verstappenTotal - norrisTotal;
     const remainingEvents = races.length + sprints.length;
-    const averagePointsNeeded = remainingEvents > 0 ? (Math.abs(pointDifference) / remainingEvents).toFixed(2) : 0;
+    const averagePointsNeeded = pointDifference > 0 ? (pointDifference / remainingEvents).toFixed(2) : 0;
 
-    const verstappenPointsElem = document.getElementById('verstappen-points');
-    const norrisPointsElem = document.getElementById('norris-points');
-    const pointDifferenceElem = document.getElementById('point-difference');
-    const averagePointsNeededElem = document.getElementById('average-points-needed');
+    document.getElementById('verstappen-points').textContent = `Puntos totales de Verstappen: ${verstappenTotal}`;
+    document.getElementById('norris-points').textContent = `Puntos totales de Norris: ${norrisTotal}`;
+    document.getElementById('point-difference').textContent = `Diferencia de puntos: ${Math.abs(pointDifference)}`;
 
-    if (verstappenPointsElem && norrisPointsElem && pointDifferenceElem && averagePointsNeededElem) {
-        verstappenPointsElem.textContent = `Puntos totales de Verstappen: ${verstappenTotal}`;
-        norrisPointsElem.textContent = `Puntos totales de Norris: ${norrisTotal}`;
-        pointDifferenceElem.textContent = `Diferencia de puntos: ${Math.abs(pointDifference)}`;
-
-        if (pointDifference > 0) {
-            averagePointsNeededElem.textContent = `Norris necesita sacar una media de ${averagePointsNeeded} puntos por evento a Verstappen para ganar el mundial.`;
-        } else if (pointDifference < 0) {
-            averagePointsNeededElem.textContent = `Verstappen necesita sacar una media de ${averagePointsNeeded} puntos por evento a Norris para ganar el mundial.`;
-        } else {
-            averagePointsNeededElem.textContent = 'Ambos pilotos están empatados en puntos.';
-        }
-
-        verstappenPointsElem.className = verstappenTotal >= norrisTotal ? 'green' : 'red';
-        norrisPointsElem.className = norrisTotal > verstappenTotal ? 'green' : 'red';
+    if (pointDifference > 0) {
+        document.getElementById('average-points-needed').textContent = `Norris necesita sacar una media de ${averagePointsNeeded} puntos por evento a Verstappen para ganar el mundial.`;
+    } else if (pointDifference < 0) {
+        document.getElementById('average-points-needed').textContent = `Verstappen necesita sacar una media de ${(-averagePointsNeeded).toFixed(2)} puntos por evento a Norris para ganar el mundial.`;
     } else {
-        console.error("Algunos elementos no se encuentran en el DOM. Verifica que todos los elementos con IDs específicos existan.");
+        document.getElementById('average-points-needed').textContent = 'Ambos pilotos están empatados en puntos.';
     }
+
+    document.getElementById('verstappen-points').className = verstappenTotal >= norrisTotal ? 'green' : 'red';
+    document.getElementById('norris-points').className = norrisTotal > verstappenTotal ? 'green' : 'red';
 }
 
 function createInputRow(container, events, isRace) {
@@ -106,11 +97,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const racesContainer = document.getElementById('races-container');
     const sprintsContainer = document.getElementById('sprints-container');
 
-    if (racesContainer && sprintsContainer) {
-        createInputRow(racesContainer, races, true);
-        createInputRow(sprintsContainer, sprints, false);
-        updateResults();
-    } else {
-        console.error("Contenedores 'races-container' o 'sprints-container' no encontrados en el DOM.");
-    }
+    createInputRow(racesContainer, races, true);
+    createInputRow(sprintPositions, sprints, false);
+
+    updateResults();
 });
